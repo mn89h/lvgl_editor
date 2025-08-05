@@ -70,7 +70,7 @@ lv_obj_t * settings_create(void)
 
     lv_obj_t * column_0 = column_create(row_0);
 
-    lv_obj_t * checkbox_0 = checkbox_create(column_0, "Bluetooth", &bluetooth_on);
+    lv_obj_t * checkbox_0 = checkbox_create(column_0, "Bluetooooth", &bluetooth_on);
 
 
     lv_obj_t * checkbox_1 = checkbox_create(column_0, "WiFi", &wifi_on);

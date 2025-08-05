@@ -9,7 +9,7 @@
         <row flex_grow="1" style_bg_color="0xebebeb" style_bg_opa="255" style_pad_all="5"
                width="100%" flex_flow="row_wrap">
             <column>
-                <checkbox text="Bluetooth" subject="bluetooth_on"/>
+                <checkbox text="Bluetooooth" subject="bluetooth_on"/>
                 <checkbox text="WiFi" subject="wifi_on"/> 
                 <checkbox text="Notifications" subject="notification_on" />
                 
