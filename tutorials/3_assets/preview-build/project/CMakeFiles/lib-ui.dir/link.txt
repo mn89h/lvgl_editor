@@ -1,0 +1,2 @@
+/emsdk/upstream/emscripten/emar qc liblib-ui.a CMakeFiles/lib-ui.dir/screens/screen_main_gen.c.o CMakeFiles/lib-ui.dir/ui_lib_gen.c.o CMakeFiles/lib-ui.dir/ui_lib.c.o CMakeFiles/lib-ui.dir/fonts/Montserrat_Medium_ttf_data.c.o CMakeFiles/lib-ui.dir/fonts/montserrat_14_c_array_data.c.o CMakeFiles/lib-ui.dir/fonts/montserrat_16_bin_file_data.c.o CMakeFiles/lib-ui.dir/images/flower_data_data.c.o
+/emsdk/upstream/emscripten/emranlib liblib-ui.a
