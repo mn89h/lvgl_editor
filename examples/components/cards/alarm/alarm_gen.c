@@ -1,13 +1,14 @@
 /**
  * @file alarm_gen.c
- * @description Template source file for LVGL objects
+ * @brief Template source file for LVGL objects
  */
 
 /*********************
  *      INCLUDES
  *********************/
+
 #include "alarm_gen.h"
-#include "ui.h"
+#include "examples.h"
 
 /*********************
  *      DEFINES
@@ -79,8 +80,7 @@ lv_obj_t * alarm_create(lv_obj_t * parent)
     lv_obj_set_name(header, "header");
     lv_obj_t * switch_0 = switch_create(header);
     lv_obj_bind_checked(switch_0, &alarm_on);
-
-
+    
     lv_obj_t * div_0 = div_create(card_0);
     lv_obj_set_flex_flow(div_0, LV_FLEX_FLOW_ROW);
     lv_obj_set_style_flex_main_place(div_0, LV_FLEX_ALIGN_SPACE_BETWEEN, 0);
@@ -89,17 +89,16 @@ lv_obj_t * alarm_create(lv_obj_t * parent)
     lv_obj_t * roller_0 = roller_create(div_0, &alarm_on);
     lv_roller_set_options(roller_0, HOURS_STRING, LV_ROLLER_MODE_NORMAL);
     lv_roller_bind_value(roller_0, &alarm_hour);
-
+    
     lv_obj_t * lv_label_0 = lv_label_create(div_0);
     lv_label_set_text(lv_label_0, ":");
     lv_obj_set_style_text_font(lv_label_0, geist_light_60, 0);
     lv_obj_bind_style(lv_label_0, &style_disabled, 0, &alarm_on, 0);
-
+    
     lv_obj_t * roller_1 = roller_create(div_0, &alarm_on);
     lv_roller_set_options(roller_1, MINS_STRING, LV_ROLLER_MODE_NORMAL);
     lv_roller_bind_value(roller_1, &alarm_min);
-
-
+    
     lv_obj_t * div_1 = div_create(card_0);
     lv_obj_set_flex_flow(div_1, LV_FLEX_FLOW_COLUMN);
     lv_obj_add_style(div_1, &settings, 0);
@@ -114,12 +113,11 @@ lv_obj_t * alarm_create(lv_obj_t * parent)
     lv_obj_t * lv_label_1 = lv_label_create(div_2);
     lv_label_set_text(lv_label_1, "Sound");
     lv_obj_set_style_text_font(lv_label_1, geist_semibold_14, 0);
-
+    
     lv_obj_t * lv_label_2 = lv_label_create(div_2);
     lv_label_set_text(lv_label_2, "Seedling");
     lv_obj_set_style_text_font(lv_label_2, geist_regular_14, 0);
-
-
+    
     lv_obj_t * div_3 = div_create(div_1);
     lv_obj_set_flex_flow(div_3, LV_FLEX_FLOW_ROW);
     lv_obj_set_style_flex_main_place(div_3, LV_FLEX_ALIGN_SPACE_BETWEEN, 0);
@@ -128,14 +126,10 @@ lv_obj_t * alarm_create(lv_obj_t * parent)
     lv_obj_t * lv_label_3 = lv_label_create(div_3);
     lv_label_set_text(lv_label_3, "Snooze duration");
     lv_obj_set_style_text_font(lv_label_3, geist_semibold_14, 0);
-
+    
     lv_obj_t * lv_label_4 = lv_label_create(div_3);
     lv_label_set_text(lv_label_4, "10min");
     lv_obj_set_style_text_font(lv_label_4, geist_regular_14, 0);
-
-
-
-
 
     LV_TRACE_OBJ_CREATE("finished");
 
@@ -174,6 +168,7 @@ static void int_anim_exec_cb(lv_anim_t * a, int32_t v)
 static lv_anim_timeline_t * timeline_open_create(lv_obj_t * obj)
 {
     lv_anim_timeline_t * at = lv_anim_timeline_create();
+    lv_anim_timeline_t * at_to_merge = NULL;
 
     lv_anim_t a;
     uint32_t selector_and_prop;
@@ -211,7 +206,7 @@ static lv_anim_timeline_t * timeline_open_create(lv_obj_t * obj)
     selector_and_prop = ((LV_STYLE_OPA & 0xff) << 24) | 0;
     lv_anim_init(&a);
     lv_anim_set_custom_exec_cb(&a, int_anim_exec_cb);
-    lv_anim_set_var(&a, "div_0/roller_0");
+    lv_anim_set_var(&a, "roller_0");
     lv_anim_set_values(&a, 0, 255);
     lv_anim_set_duration(&a, 200);
     lv_anim_set_user_data(&a, (void *)((uintptr_t)selector_and_prop));
@@ -221,7 +216,7 @@ static lv_anim_timeline_t * timeline_open_create(lv_obj_t * obj)
     selector_and_prop = ((LV_STYLE_TRANSLATE_X & 0xff) << 24) | 0;
     lv_anim_init(&a);
     lv_anim_set_custom_exec_cb(&a, int_anim_exec_cb);
-    lv_anim_set_var(&a, "div_0/roller_0");
+    lv_anim_set_var(&a, "roller_0");
     lv_anim_set_values(&a, -40, 0);
     lv_anim_set_duration(&a, 200);
     lv_anim_set_user_data(&a, (void *)((uintptr_t)selector_and_prop));
@@ -231,7 +226,7 @@ static lv_anim_timeline_t * timeline_open_create(lv_obj_t * obj)
     selector_and_prop = ((LV_STYLE_OPA & 0xff) << 24) | 0;
     lv_anim_init(&a);
     lv_anim_set_custom_exec_cb(&a, int_anim_exec_cb);
-    lv_anim_set_var(&a, "div_0/roller_1");
+    lv_anim_set_var(&a, "roller_1");
     lv_anim_set_values(&a, 0, 255);
     lv_anim_set_duration(&a, 200);
     lv_anim_set_user_data(&a, (void *)((uintptr_t)selector_and_prop));
@@ -241,7 +236,7 @@ static lv_anim_timeline_t * timeline_open_create(lv_obj_t * obj)
     selector_and_prop = ((LV_STYLE_TRANSLATE_X & 0xff) << 24) | 0;
     lv_anim_init(&a);
     lv_anim_set_custom_exec_cb(&a, int_anim_exec_cb);
-    lv_anim_set_var(&a, "div_0/roller_1");
+    lv_anim_set_var(&a, "roller_1");
     lv_anim_set_values(&a, 40, 0);
     lv_anim_set_duration(&a, 200);
     lv_anim_set_user_data(&a, (void *)((uintptr_t)selector_and_prop));
@@ -280,3 +275,4 @@ static void free_timeline_event_cb(lv_event_t * e)
     }
     lv_free(at_array);
 }
+

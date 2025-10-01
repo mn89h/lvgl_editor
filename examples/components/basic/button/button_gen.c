@@ -1,19 +1,18 @@
 /**
  * @file button_gen.c
- * @description Template source file for LVGL objects
+ * @brief Template source file for LVGL objects
  */
 
 /*********************
  *      INCLUDES
  *********************/
+
 #include "button_gen.h"
-#include "ui.h"
+#include "examples.h"
 
 /*********************
  *      DEFINES
  *********************/
-
-
 
 /**********************
  *      TYPEDEFS
@@ -26,8 +25,6 @@
 /***********************
  *  STATIC PROTOTYPES
  **********************/
-
-
 
 /**********************
  *   GLOBAL FUNCTIONS
@@ -80,16 +77,12 @@ lv_obj_t * button_create(lv_obj_t * parent, const char * label)
     lv_label_set_text(lv_label_0, label);
     lv_obj_set_align(lv_label_0, LV_ALIGN_CENTER);
 
-
-
     LV_TRACE_OBJ_CREATE("finished");
 
     lv_obj_set_name(lv_button_0, "button_#");
 
     return lv_button_0;
 }
-
-
 
 /**********************
  *   STATIC FUNCTIONS

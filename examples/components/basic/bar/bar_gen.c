@@ -1,19 +1,18 @@
 /**
  * @file bar_gen.c
- * @description Template source file for LVGL objects
+ * @brief Template source file for LVGL objects
  */
 
 /*********************
  *      INCLUDES
  *********************/
+
 #include "bar_gen.h"
-#include "ui.h"
+#include "examples.h"
 
 /*********************
  *      DEFINES
  *********************/
-
-
 
 /**********************
  *      TYPEDEFS
@@ -26,8 +25,6 @@
 /***********************
  *  STATIC PROTOTYPES
  **********************/
-
-
 
 /**********************
  *   GLOBAL FUNCTIONS
@@ -69,15 +66,12 @@ lv_obj_t * bar_create(lv_obj_t * parent)
     lv_obj_bind_style(lv_bar_0, &style_dark, 0, &dark_theme, 1);
     lv_obj_bind_style(lv_bar_0, &style_dark, LV_PART_INDICATOR, &dark_theme, 1);
 
-
     LV_TRACE_OBJ_CREATE("finished");
 
     lv_obj_set_name(lv_bar_0, "bar_#");
 
     return lv_bar_0;
 }
-
-
 
 /**********************
  *   STATIC FUNCTIONS

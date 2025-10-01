@@ -1,19 +1,18 @@
 /**
  * @file switch_gen.c
- * @description Template source file for LVGL objects
+ * @brief Template source file for LVGL objects
  */
 
 /*********************
  *      INCLUDES
  *********************/
+
 #include "switch_gen.h"
-#include "ui.h"
+#include "examples.h"
 
 /*********************
  *      DEFINES
  *********************/
-
-
 
 /**********************
  *      TYPEDEFS
@@ -26,8 +25,6 @@
 /***********************
  *  STATIC PROTOTYPES
  **********************/
-
-
 
 /**********************
  *   GLOBAL FUNCTIONS
@@ -87,15 +84,12 @@ lv_obj_t * switch_create(lv_obj_t * parent)
     lv_obj_bind_style(lv_switch_0, &switch_main_dark, LV_PART_MAIN, &dark_theme, 1);
     lv_obj_bind_style(lv_switch_0, &switch_indicator_dark, LV_PART_INDICATOR | LV_STATE_CHECKED, &dark_theme, 1);
 
-
     LV_TRACE_OBJ_CREATE("finished");
 
     lv_obj_set_name(lv_switch_0, "switch_#");
 
     return lv_switch_0;
 }
-
-
 
 /**********************
  *   STATIC FUNCTIONS

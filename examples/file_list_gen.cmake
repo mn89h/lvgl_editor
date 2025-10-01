@@ -26,5 +26,4 @@ list(
   ${CMAKE_CURRENT_LIST_DIR}/components/cards/weather/weather_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/screens/elements_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/examples_gen.c
-  ${CMAKE_CURRENT_LIST_DIR}/ui.c
   ${CMAKE_CURRENT_LIST_DIR}/examples.c)

@@ -1,19 +1,18 @@
 /**
  * @file column_gen.c
- * @description Template source file for LVGL objects
+ * @brief Template source file for LVGL objects
  */
 
 /*********************
  *      INCLUDES
  *********************/
+
 #include "column_gen.h"
-#include "ui.h"
+#include "examples.h"
 
 /*********************
  *      DEFINES
  *********************/
-
-
 
 /**********************
  *      TYPEDEFS
@@ -26,8 +25,6 @@
 /***********************
  *  STATIC PROTOTYPES
  **********************/
-
-
 
 /**********************
  *   GLOBAL FUNCTIONS
@@ -56,15 +53,12 @@ lv_obj_t * column_create(lv_obj_t * parent)
     lv_obj_remove_style_all(lv_obj_0);
     lv_obj_add_style(lv_obj_0, &style_base, 0);
 
-
     LV_TRACE_OBJ_CREATE("finished");
 
     lv_obj_set_name(lv_obj_0, "column_#");
 
     return lv_obj_0;
 }
-
-
 
 /**********************
  *   STATIC FUNCTIONS

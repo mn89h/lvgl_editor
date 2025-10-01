@@ -12,6 +12,7 @@ extern "C" {
 /*********************
  *      INCLUDES
  *********************/
+
 #ifdef LV_LVGL_H_INCLUDE_SIMPLE
     #include "lvgl.h"
 #else
@@ -30,10 +31,7 @@ extern "C" {
  * GLOBAL PROTOTYPES
  **********************/
 
-
 lv_obj_t * location_create(lv_obj_t * parent, const char * city_text, lv_subject_t * temp, const void * icon, const char * weather_text);
-
-
 
 /**********************
  *      MACROS

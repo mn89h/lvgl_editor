@@ -1,19 +1,18 @@
 /**
  * @file speaker_volume_gen.c
- * @description Template source file for LVGL objects
+ * @brief Template source file for LVGL objects
  */
 
 /*********************
  *      INCLUDES
  *********************/
+
 #include "speaker_volume_gen.h"
-#include "ui.h"
+#include "examples.h"
 
 /*********************
  *      DEFINES
  *********************/
-
-
 
 /**********************
  *      TYPEDEFS
@@ -26,8 +25,6 @@
 /***********************
  *  STATIC PROTOTYPES
  **********************/
-
-
 
 /**********************
  *   GLOBAL FUNCTIONS
@@ -78,8 +75,7 @@ lv_obj_t * speaker_volume_create(lv_obj_t * parent)
     lv_obj_t * card_header_0 = card_header_create(card_0, "Speaker Volume");
     lv_obj_t * switch_0 = switch_create(card_header_0);
     lv_obj_bind_checked(switch_0, &speaker);
-
-
+    
     lv_obj_t * lv_label_0 = lv_label_create(card_0);
     lv_label_bind_text(lv_label_0, &speaker_vol, NULL);
     lv_obj_set_width(lv_label_0, lv_pct(100));
@@ -87,7 +83,7 @@ lv_obj_t * speaker_volume_create(lv_obj_t * parent)
     lv_obj_set_style_text_letter_space(lv_label_0, -1, 0);
     lv_obj_add_style(lv_label_0, &style_disabled, LV_STATE_DISABLED);
     lv_obj_bind_state_if_eq(lv_label_0, &speaker, LV_STATE_DISABLED, 0);
-
+    
     lv_obj_t * slider_0 = slider_create(card_0);
     lv_obj_set_height(slider_0, 20);
     lv_slider_bind_value(slider_0, &speaker_vol);
@@ -96,16 +92,12 @@ lv_obj_t * speaker_volume_create(lv_obj_t * parent)
     lv_obj_add_style(slider_0, &style_disabled, LV_STATE_DISABLED);
     lv_obj_bind_state_if_eq(slider_0, &speaker, LV_STATE_DISABLED, 0);
 
-
-
     LV_TRACE_OBJ_CREATE("finished");
 
     lv_obj_set_name(card_0, "speaker_volume_#");
 
     return card_0;
 }
-
-
 
 /**********************
  *   STATIC FUNCTIONS

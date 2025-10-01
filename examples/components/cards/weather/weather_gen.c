@@ -1,19 +1,18 @@
 /**
  * @file weather_gen.c
- * @description Template source file for LVGL objects
+ * @brief Template source file for LVGL objects
  */
 
 /*********************
  *      INCLUDES
  *********************/
+
 #include "weather_gen.h"
-#include "ui.h"
+#include "examples.h"
 
 /*********************
  *      DEFINES
  *********************/
-
-
 
 /**********************
  *      TYPEDEFS
@@ -26,8 +25,6 @@
 /***********************
  *  STATIC PROTOTYPES
  **********************/
-
-
 
 /**********************
  *   GLOBAL FUNCTIONS
@@ -90,23 +87,23 @@ lv_obj_t * weather_create(lv_obj_t * parent)
     lv_obj_add_style(lv_tabview_0, &style_tabview, 0);
     lv_obj_t * lv_tabview_tab_0 = lv_tabview_add_tab(lv_tabview_0, "Sidney");
     lv_obj_set_style_bg_image_src(lv_tabview_0, weather_location_1_bg, 0);
-        lv_obj_add_style(lv_tabview_tab_0, &style_tab, 0);
-        lv_obj_t * location_0 = location_create(lv_tabview_tab_0, "Sidney", &location1_temp, icon_cloudy, "Cloudy");
-
+    lv_obj_add_style(lv_tabview_tab_0, &style_tab, 0);
+    lv_obj_t * location_0 = location_create(lv_tabview_tab_0, "Sidney", &location1_temp, icon_cloudy, "Cloudy");
+    
     lv_obj_t * lv_tabview_tab_1 = lv_tabview_add_tab(lv_tabview_0, "Budapest");
     lv_obj_set_style_bg_image_src(lv_tabview_0, weather_location_2_bg, 0);
-        lv_obj_add_style(lv_tabview_tab_1, &style_tab, 0);
-        lv_obj_t * location_1 = location_create(lv_tabview_tab_1, "Budapest, HU", &location2_temp, icon_sunny, "Sunny");
-
+    lv_obj_add_style(lv_tabview_tab_1, &style_tab, 0);
+    lv_obj_t * location_1 = location_create(lv_tabview_tab_1, "Budapest, HU", &location2_temp, icon_sunny, "Sunny");
+    
     lv_obj_t * lv_tabview_tab_bar_0 = lv_tabview_get_tab_bar(lv_tabview_0);
     lv_obj_set_height(lv_tabview_0, 44);
-        lv_obj_add_style(lv_tabview_tab_bar_0, &tab_bar, 0);
+    lv_obj_add_style(lv_tabview_tab_bar_0, &tab_bar, 0);
     lv_obj_t * lv_tabview_tab_button_0 = lv_tabview_get_tab_button(lv_tabview_0, 0);
-        lv_obj_add_style(lv_tabview_tab_button_0, &tab_bar_button, 0);
-        lv_obj_add_style(lv_tabview_tab_button_0, &tab_bar_button_checked, LV_STATE_CHECKED);
+    lv_obj_add_style(lv_tabview_tab_button_0, &tab_bar_button, 0);
+    lv_obj_add_style(lv_tabview_tab_button_0, &tab_bar_button_checked, LV_STATE_CHECKED);
     lv_obj_t * lv_tabview_tab_button_1 = lv_tabview_get_tab_button(lv_tabview_0, 1);
-        lv_obj_add_style(lv_tabview_tab_button_1, &tab_bar_button, 0);
-        lv_obj_add_style(lv_tabview_tab_button_1, &tab_bar_button_checked, LV_STATE_CHECKED);
+    lv_obj_add_style(lv_tabview_tab_button_1, &tab_bar_button, 0);
+    lv_obj_add_style(lv_tabview_tab_button_1, &tab_bar_button_checked, LV_STATE_CHECKED);
     lv_obj_t * div_0 = div_create(lv_tabview_0);
     lv_obj_set_style_pad_top(div_0, UNIT_MD, 0);
     lv_obj_set_style_pad_left(div_0, UNIT_XL, 0);
@@ -114,15 +111,11 @@ lv_obj_t * weather_create(lv_obj_t * parent)
     lv_obj_t * lv_label_0 = lv_label_create(div_0);
     lv_label_set_text(lv_label_0, "Weather");
     lv_obj_set_style_text_font(lv_label_0, geist_semibold_20, 0);
-
+    
     lv_obj_t * lv_label_1 = lv_label_create(div_0);
     lv_label_set_text(lv_label_1, "Fri, Aug 15");
     lv_obj_set_style_text_font(lv_label_1, geist_regular_14, 0);
     lv_obj_set_style_text_opa(lv_label_1, (255 * 80 / 100), 0);
-
-
-
-
 
     LV_TRACE_OBJ_CREATE("finished");
 
@@ -130,8 +123,6 @@ lv_obj_t * weather_create(lv_obj_t * parent)
 
     return card_0;
 }
-
-
 
 /**********************
  *   STATIC FUNCTIONS

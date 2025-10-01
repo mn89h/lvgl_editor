@@ -12,6 +12,7 @@ extern "C" {
 /*********************
  *      INCLUDES
  *********************/
+
 #ifdef LV_LVGL_H_INCLUDE_SIMPLE
     #include "lvgl.h"
 #else
@@ -34,7 +35,6 @@ typedef enum {
 /**********************
  * GLOBAL PROTOTYPES
  **********************/
-
 
 lv_obj_t * alarm_create(lv_obj_t * parent);
 
