@@ -534,8 +534,8 @@ project/CMakeFiles/lib-ui.dir/screens/screen_about_gen.c.o: /lved/project/screen
   /lved/resources/lvgl/src/lv_api_map_v9_1.h \
   /lved/resources/lvgl/src/lv_api_map_v9_2.h \
   /lved/resources/lvgl/src/lv_api_map_v9_3.h \
-  /lved/project/ui_lib.h \
-  /lved/project/ui_lib_gen.h \
+  /lved/project/ui_screens.h \
+  /lved/project/ui_screens_gen.h \
   /lved/project/screens/screen_main_gen.h
 
 project/CMakeFiles/lib-ui.dir/screens/screen_main_gen.c.o: /lved/project/screens/screen_main_gen.c \
@@ -1071,13 +1071,13 @@ project/CMakeFiles/lib-ui.dir/screens/screen_main_gen.c.o: /lved/project/screens
   /lved/resources/lvgl/src/lv_api_map_v9_1.h \
   /lved/resources/lvgl/src/lv_api_map_v9_2.h \
   /lved/resources/lvgl/src/lv_api_map_v9_3.h \
-  /lved/project/ui_lib.h \
-  /lved/project/ui_lib_gen.h \
+  /lved/project/ui_screens.h \
+  /lved/project/ui_screens_gen.h \
   /lved/project/screens/screen_about_gen.h
 
-project/CMakeFiles/lib-ui.dir/ui_lib.c.o: /lved/project/ui_lib.c \
-  /lved/project/ui_lib.h \
-  /lved/project/ui_lib_gen.h \
+project/CMakeFiles/lib-ui.dir/ui_screens.c.o: /lved/project/ui_screens.c \
+  /lved/project/ui_screens.h \
+  /lved/project/ui_screens_gen.h \
   /lved/resources/lvgl/lvgl.h \
   /lved/resources/lvgl/lv_version.h \
   /lved/resources/lvgl/src/lv_init.h \
@@ -1612,8 +1612,8 @@ project/CMakeFiles/lib-ui.dir/ui_lib.c.o: /lved/project/ui_lib.c \
   /lved/project/screens/screen_about_gen.h \
   /lved/project/screens/screen_main_gen.h
 
-project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o: /lved/project/ui_lib_gen.c \
-  /lved/project/ui_lib_gen.h \
+project/CMakeFiles/lib-ui.dir/ui_screens_gen.c.o: /lved/project/ui_screens_gen.c \
+  /lved/project/ui_screens_gen.h \
   /lved/resources/lvgl/lvgl.h \
   /lved/resources/lvgl/lv_version.h \
   /lved/resources/lvgl/src/lv_init.h \
@@ -2149,7 +2149,7 @@ project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o: /lved/project/ui_lib_gen.c \
   /lved/project/screens/screen_main_gen.h
 
 
-/lved/project/ui_lib.h:
+/lved/project/ui_screens_gen.h:
 
 /lved/resources/lvgl/src/lv_api_map_v9_3.h:
 
@@ -2257,6 +2257,8 @@ project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o: /lved/project/ui_lib_gen.c \
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_sensor.h:
 
+/lved/project/ui_screens.h:
+
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_touch.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_gamecontroller.h:
@@ -2345,6 +2347,8 @@ project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o: /lved/project/ui_lib_gen.c \
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_atomic.h:
 
+/lved/project/ui_screens_gen.c:
+
 /emsdk/upstream/lib/clang/21/include/stdarg.h:
 
 /lved/resources/lvgl/src/libs/freetype/lv_freetype.h:
@@ -2401,13 +2405,13 @@ project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o: /lved/project/ui_lib_gen.c \
 
 /emsdk/upstream/emscripten/cache/sysroot/include/compat/math.h:
 
+/lved/project/ui_screens.c:
+
 /emsdk/upstream/lib/clang/21/include/__stddef_null.h:
 
 /lved/resources/lvgl/src/layouts/flex/lv_flex.h:
 
 /emsdk/upstream/lib/clang/21/include/__stddef_max_align_t.h:
-
-/lved/project/ui_lib_gen.c:
 
 /lved/resources/lvgl/src/core/lv_group.h:
 
@@ -2436,8 +2440,6 @@ project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o: /lved/project/ui_lib_gen.c \
 /lved/resources/lvgl/src/core/lv_obj_event.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_rwops.h:
-
-/lved/project/ui_lib_gen.h:
 
 /emsdk/upstream/emscripten/cache/sysroot/include/SDL2/SDL_error.h:
 
@@ -2578,8 +2580,6 @@ project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o: /lved/project/ui_lib_gen.c \
 /lved/resources/lvgl/src/draw/lv_draw_rect.h:
 
 /lved/resources/lvgl/src/widgets/bar/lv_bar.h:
-
-/lved/project/ui_lib.c:
 
 /lved/resources/lvgl/src/misc/lv_anim_timeline.h:
 

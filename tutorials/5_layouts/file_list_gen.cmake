@@ -5,5 +5,5 @@ list(
   ${CMAKE_CURRENT_LIST_DIR}/components/column/column_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/components/row/row_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/screens/screen_layouts_gen.c
-  ${CMAKE_CURRENT_LIST_DIR}/ui_lib_gen.c
-  ${CMAKE_CURRENT_LIST_DIR}/ui_lib.c)
+  ${CMAKE_CURRENT_LIST_DIR}/ui_layouts_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/ui_layouts.c)

@@ -31,6 +31,9 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -154,77 +157,77 @@ fonts/font_medium_data.c.s:
 	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/fonts/font_medium_data.c.s
 .PHONY : fonts/font_medium_data.c.s
 
-screens/screen_hello_gen.o: screens/screen_hello_gen.c.o
-.PHONY : screens/screen_hello_gen.o
+screens/screen_hello_world_gen.o: screens/screen_hello_world_gen.c.o
+.PHONY : screens/screen_hello_world_gen.o
 
 # target to build an object file
-screens/screen_hello_gen.c.o:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/screen_hello_gen.c.o
-.PHONY : screens/screen_hello_gen.c.o
+screens/screen_hello_world_gen.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/screen_hello_world_gen.c.o
+.PHONY : screens/screen_hello_world_gen.c.o
 
-screens/screen_hello_gen.i: screens/screen_hello_gen.c.i
-.PHONY : screens/screen_hello_gen.i
+screens/screen_hello_world_gen.i: screens/screen_hello_world_gen.c.i
+.PHONY : screens/screen_hello_world_gen.i
 
 # target to preprocess a source file
-screens/screen_hello_gen.c.i:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/screen_hello_gen.c.i
-.PHONY : screens/screen_hello_gen.c.i
+screens/screen_hello_world_gen.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/screen_hello_world_gen.c.i
+.PHONY : screens/screen_hello_world_gen.c.i
 
-screens/screen_hello_gen.s: screens/screen_hello_gen.c.s
-.PHONY : screens/screen_hello_gen.s
+screens/screen_hello_world_gen.s: screens/screen_hello_world_gen.c.s
+.PHONY : screens/screen_hello_world_gen.s
 
 # target to generate assembly for a file
-screens/screen_hello_gen.c.s:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/screen_hello_gen.c.s
-.PHONY : screens/screen_hello_gen.c.s
+screens/screen_hello_world_gen.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/screen_hello_world_gen.c.s
+.PHONY : screens/screen_hello_world_gen.c.s
 
-ui_lib.o: ui_lib.c.o
-.PHONY : ui_lib.o
+ui_hello_world.o: ui_hello_world.c.o
+.PHONY : ui_hello_world.o
 
 # target to build an object file
-ui_lib.c.o:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib.c.o
-.PHONY : ui_lib.c.o
+ui_hello_world.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_hello_world.c.o
+.PHONY : ui_hello_world.c.o
 
-ui_lib.i: ui_lib.c.i
-.PHONY : ui_lib.i
+ui_hello_world.i: ui_hello_world.c.i
+.PHONY : ui_hello_world.i
 
 # target to preprocess a source file
-ui_lib.c.i:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib.c.i
-.PHONY : ui_lib.c.i
+ui_hello_world.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_hello_world.c.i
+.PHONY : ui_hello_world.c.i
 
-ui_lib.s: ui_lib.c.s
-.PHONY : ui_lib.s
+ui_hello_world.s: ui_hello_world.c.s
+.PHONY : ui_hello_world.s
 
 # target to generate assembly for a file
-ui_lib.c.s:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib.c.s
-.PHONY : ui_lib.c.s
+ui_hello_world.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_hello_world.c.s
+.PHONY : ui_hello_world.c.s
 
-ui_lib_gen.o: ui_lib_gen.c.o
-.PHONY : ui_lib_gen.o
+ui_hello_world_gen.o: ui_hello_world_gen.c.o
+.PHONY : ui_hello_world_gen.o
 
 # target to build an object file
-ui_lib_gen.c.o:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o
-.PHONY : ui_lib_gen.c.o
+ui_hello_world_gen.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_hello_world_gen.c.o
+.PHONY : ui_hello_world_gen.c.o
 
-ui_lib_gen.i: ui_lib_gen.c.i
-.PHONY : ui_lib_gen.i
+ui_hello_world_gen.i: ui_hello_world_gen.c.i
+.PHONY : ui_hello_world_gen.i
 
 # target to preprocess a source file
-ui_lib_gen.c.i:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.i
-.PHONY : ui_lib_gen.c.i
+ui_hello_world_gen.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_hello_world_gen.c.i
+.PHONY : ui_hello_world_gen.c.i
 
-ui_lib_gen.s: ui_lib_gen.c.s
-.PHONY : ui_lib_gen.s
+ui_hello_world_gen.s: ui_hello_world_gen.c.s
+.PHONY : ui_hello_world_gen.s
 
 # target to generate assembly for a file
-ui_lib_gen.c.s:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.s
-.PHONY : ui_lib_gen.c.s
+ui_hello_world_gen.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_hello_world_gen.c.s
+.PHONY : ui_hello_world_gen.c.s
 
 # Help Target
 help:
@@ -238,15 +241,15 @@ help:
 	@echo "... fonts/font_medium_data.o"
 	@echo "... fonts/font_medium_data.i"
 	@echo "... fonts/font_medium_data.s"
-	@echo "... screens/screen_hello_gen.o"
-	@echo "... screens/screen_hello_gen.i"
-	@echo "... screens/screen_hello_gen.s"
-	@echo "... ui_lib.o"
-	@echo "... ui_lib.i"
-	@echo "... ui_lib.s"
-	@echo "... ui_lib_gen.o"
-	@echo "... ui_lib_gen.i"
-	@echo "... ui_lib_gen.s"
+	@echo "... screens/screen_hello_world_gen.o"
+	@echo "... screens/screen_hello_world_gen.i"
+	@echo "... screens/screen_hello_world_gen.s"
+	@echo "... ui_hello_world.o"
+	@echo "... ui_hello_world.i"
+	@echo "... ui_hello_world.s"
+	@echo "... ui_hello_world_gen.o"
+	@echo "... ui_hello_world_gen.i"
+	@echo "... ui_hello_world_gen.s"
 .PHONY : help
 
 

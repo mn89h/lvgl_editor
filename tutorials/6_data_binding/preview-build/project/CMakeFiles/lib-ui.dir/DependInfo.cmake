@@ -11,8 +11,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/lved/project/components/round_button_gen.c" "project/CMakeFiles/lib-ui.dir/components/round_button_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/components/round_button_gen.c.o.d"
   "/lved/project/components/sliderbox_gen.c" "project/CMakeFiles/lib-ui.dir/components/sliderbox_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/components/sliderbox_gen.c.o.d"
   "/lved/project/screens/screen_data_bindings_gen.c" "project/CMakeFiles/lib-ui.dir/screens/screen_data_bindings_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/screens/screen_data_bindings_gen.c.o.d"
-  "/lved/project/ui_lib.c" "project/CMakeFiles/lib-ui.dir/ui_lib.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_lib.c.o.d"
-  "/lved/project/ui_lib_gen.c" "project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o.d"
+  "/lved/project/ui_data_binding.c" "project/CMakeFiles/lib-ui.dir/ui_data_binding.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_data_binding.c.o.d"
+  "/lved/project/ui_data_binding_gen.c" "project/CMakeFiles/lib-ui.dir/ui_data_binding_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_data_binding_gen.c.o.d"
   )
 
 # Targets to which this target links.

@@ -181,53 +181,53 @@ screens/screen_main_gen.c.s:
 	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/screen_main_gen.c.s
 .PHONY : screens/screen_main_gen.c.s
 
-ui_lib.o: ui_lib.c.o
-.PHONY : ui_lib.o
+ui_screens.o: ui_screens.c.o
+.PHONY : ui_screens.o
 
 # target to build an object file
-ui_lib.c.o:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib.c.o
-.PHONY : ui_lib.c.o
+ui_screens.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_screens.c.o
+.PHONY : ui_screens.c.o
 
-ui_lib.i: ui_lib.c.i
-.PHONY : ui_lib.i
+ui_screens.i: ui_screens.c.i
+.PHONY : ui_screens.i
 
 # target to preprocess a source file
-ui_lib.c.i:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib.c.i
-.PHONY : ui_lib.c.i
+ui_screens.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_screens.c.i
+.PHONY : ui_screens.c.i
 
-ui_lib.s: ui_lib.c.s
-.PHONY : ui_lib.s
+ui_screens.s: ui_screens.c.s
+.PHONY : ui_screens.s
 
 # target to generate assembly for a file
-ui_lib.c.s:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib.c.s
-.PHONY : ui_lib.c.s
+ui_screens.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_screens.c.s
+.PHONY : ui_screens.c.s
 
-ui_lib_gen.o: ui_lib_gen.c.o
-.PHONY : ui_lib_gen.o
+ui_screens_gen.o: ui_screens_gen.c.o
+.PHONY : ui_screens_gen.o
 
 # target to build an object file
-ui_lib_gen.c.o:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o
-.PHONY : ui_lib_gen.c.o
+ui_screens_gen.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_screens_gen.c.o
+.PHONY : ui_screens_gen.c.o
 
-ui_lib_gen.i: ui_lib_gen.c.i
-.PHONY : ui_lib_gen.i
+ui_screens_gen.i: ui_screens_gen.c.i
+.PHONY : ui_screens_gen.i
 
 # target to preprocess a source file
-ui_lib_gen.c.i:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.i
-.PHONY : ui_lib_gen.c.i
+ui_screens_gen.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_screens_gen.c.i
+.PHONY : ui_screens_gen.c.i
 
-ui_lib_gen.s: ui_lib_gen.c.s
-.PHONY : ui_lib_gen.s
+ui_screens_gen.s: ui_screens_gen.c.s
+.PHONY : ui_screens_gen.s
 
 # target to generate assembly for a file
-ui_lib_gen.c.s:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.s
-.PHONY : ui_lib_gen.c.s
+ui_screens_gen.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_screens_gen.c.s
+.PHONY : ui_screens_gen.c.s
 
 # Help Target
 help:
@@ -244,12 +244,12 @@ help:
 	@echo "... screens/screen_main_gen.o"
 	@echo "... screens/screen_main_gen.i"
 	@echo "... screens/screen_main_gen.s"
-	@echo "... ui_lib.o"
-	@echo "... ui_lib.i"
-	@echo "... ui_lib.s"
-	@echo "... ui_lib_gen.o"
-	@echo "... ui_lib_gen.i"
-	@echo "... ui_lib_gen.s"
+	@echo "... ui_screens.o"
+	@echo "... ui_screens.i"
+	@echo "... ui_screens.s"
+	@echo "... ui_screens_gen.o"
+	@echo "... ui_screens_gen.i"
+	@echo "... ui_screens_gen.s"
 .PHONY : help
 
 

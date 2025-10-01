@@ -10,8 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/lved/project/screens/screen_about_gen.c" "project/CMakeFiles/lib-ui.dir/screens/screen_about_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/screens/screen_about_gen.c.o.d"
   "/lved/project/screens/screen_main_gen.c" "project/CMakeFiles/lib-ui.dir/screens/screen_main_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/screens/screen_main_gen.c.o.d"
-  "/lved/project/ui_lib.c" "project/CMakeFiles/lib-ui.dir/ui_lib.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_lib.c.o.d"
-  "/lved/project/ui_lib_gen.c" "project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o.d"
+  "/lved/project/ui_screens.c" "project/CMakeFiles/lib-ui.dir/ui_screens.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_screens.c.o.d"
+  "/lved/project/ui_screens_gen.c" "project/CMakeFiles/lib-ui.dir/ui_screens_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_screens_gen.c.o.d"
   )
 
 # Targets to which this target links.

@@ -11,9 +11,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/lved/project/components/buttons/button_normal_gen.c" "project/CMakeFiles/lib-ui.dir/components/buttons/button_normal_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/components/buttons/button_normal_gen.c.o.d"
   "/lved/project/components/buttons/button_warning_gen.c" "project/CMakeFiles/lib-ui.dir/components/buttons/button_warning_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/components/buttons/button_warning_gen.c.o.d"
   "/lved/project/components/section_gen.c" "project/CMakeFiles/lib-ui.dir/components/section_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/components/section_gen.c.o.d"
-  "/lved/project/screens/screen1_gen.c" "project/CMakeFiles/lib-ui.dir/screens/screen1_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/screens/screen1_gen.c.o.d"
-  "/lved/project/ui_lib.c" "project/CMakeFiles/lib-ui.dir/ui_lib.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_lib.c.o.d"
-  "/lved/project/ui_lib_gen.c" "project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o.d"
+  "/lved/project/screens/screen_components_gen.c" "project/CMakeFiles/lib-ui.dir/screens/screen_components_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/screens/screen_components_gen.c.o.d"
+  "/lved/project/ui_new_component.c" "project/CMakeFiles/lib-ui.dir/ui_new_component.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_new_component.c.o.d"
+  "/lved/project/ui_new_component_gen.c" "project/CMakeFiles/lib-ui.dir/ui_new_component_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_new_component_gen.c.o.d"
   )
 
 # Targets to which this target links.

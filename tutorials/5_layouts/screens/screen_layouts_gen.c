@@ -8,7 +8,7 @@
  *********************/
 
 #include "screen_layouts_gen.h"
-#include "ui_lib.h"
+#include "ui_layouts.h"
 
 /*********************
  *      DEFINES
@@ -34,14 +34,10 @@ lv_obj_t * screen_layouts_create(void)
 {
     LV_TRACE_OBJ_CREATE("begin");
 
-    static lv_style_t asd;
 
     static bool style_inited = false;
 
     if (!style_inited) {
-        lv_style_init(&asd);
-        lv_style_set_bg_color(&asd, lv_color_hex3(0xf11));
-        lv_style_set_text_color(&asd, lv_color_hex3(0xaaa));
 
         style_inited = true;
     }
@@ -112,7 +108,7 @@ lv_obj_t * screen_layouts_create(void)
     lv_obj_set_flag(button_3, LV_OBJ_FLAG_FLOATING, true);
     lv_obj_set_align(button_3, LV_ALIGN_BOTTOM_RIGHT);
     lv_obj_set_x(button_3, -20);
-    lv_obj_set_y(button_3, -11);
+    lv_obj_set_y(button_3, -12);
 
     LV_TRACE_OBJ_CREATE("finished");
 

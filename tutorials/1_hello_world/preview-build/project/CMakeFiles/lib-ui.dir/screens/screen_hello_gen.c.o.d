@@ -529,5 +529,5 @@ project/CMakeFiles/lib-ui.dir/screens/screen_hello_gen.c.o: \
   /lved/resources/lvgl/src/lv_api_map_v9_0.h \
   /lved/resources/lvgl/src/lv_api_map_v9_1.h \
   /lved/resources/lvgl/src/lv_api_map_v9_2.h \
-  /lved/resources/lvgl/src/lv_api_map_v9_3.h /lved/project/ui_lib.h \
-  /lved/project/ui_lib_gen.h
+  /lved/resources/lvgl/src/lv_api_map_v9_3.h /lved/project/hello_world.h \
+  /lved/project/hello_world_gen.h

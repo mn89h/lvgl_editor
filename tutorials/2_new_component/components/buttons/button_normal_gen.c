@@ -8,7 +8,7 @@
  *********************/
 
 #include "button_normal_gen.h"
-#include "ui_lib.h"
+#include "ui_new_component.h"
 
 /*********************
  *      DEFINES

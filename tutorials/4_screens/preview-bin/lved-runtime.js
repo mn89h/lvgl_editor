@@ -9132,7 +9132,7 @@ var _lvrt_xml_test_run_next = Module['_lvrt_xml_test_run_next'] = wasmExports['l
 var _lvrt_xml_test_run_stop = Module['_lvrt_xml_test_run_stop'] = wasmExports['lvrt_xml_test_run_stop']
 var _free = Module['_free'] = wasmExports['free']
 var _fflush = wasmExports['fflush']
-var _ui_lib_init = Module['_ui_lib_init'] = wasmExports['ui_lib_init']
+var _ui_screens_init = Module['_ui_screens_init'] = wasmExports['ui_screens_init']
 var ___funcs_on_exit = wasmExports['__funcs_on_exit']
 var __emscripten_stack_restore = wasmExports['_emscripten_stack_restore']
 var __emscripten_stack_alloc = wasmExports['_emscripten_stack_alloc']

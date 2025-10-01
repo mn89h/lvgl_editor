@@ -8,7 +8,7 @@
  *********************/
 
 #include "sliderbox_gen.h"
-#include "ui_lib.h"
+#include "ui_data_binding.h"
 
 /*********************
  *      DEFINES

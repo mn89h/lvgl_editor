@@ -12,9 +12,9 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/lved/project/fonts/montserrat_14_c_array_data.c" "project/CMakeFiles/lib-ui.dir/fonts/montserrat_14_c_array_data.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/fonts/montserrat_14_c_array_data.c.o.d"
   "/lved/project/fonts/montserrat_16_bin_file_data.c" "project/CMakeFiles/lib-ui.dir/fonts/montserrat_16_bin_file_data.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/fonts/montserrat_16_bin_file_data.c.o.d"
   "/lved/project/images/flower_data_data.c" "project/CMakeFiles/lib-ui.dir/images/flower_data_data.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/images/flower_data_data.c.o.d"
-  "/lved/project/screens/screen_main_gen.c" "project/CMakeFiles/lib-ui.dir/screens/screen_main_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/screens/screen_main_gen.c.o.d"
-  "/lved/project/ui_lib.c" "project/CMakeFiles/lib-ui.dir/ui_lib.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_lib.c.o.d"
-  "/lved/project/ui_lib_gen.c" "project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o.d"
+  "/lved/project/screens/screen_assets_gen.c" "project/CMakeFiles/lib-ui.dir/screens/screen_assets_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/screens/screen_assets_gen.c.o.d"
+  "/lved/project/ui_assets.c" "project/CMakeFiles/lib-ui.dir/ui_assets.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_assets.c.o.d"
+  "/lved/project/ui_assets_gen.c" "project/CMakeFiles/lib-ui.dir/ui_assets_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_assets_gen.c.o.d"
   )
 
 # Targets to which this target links.

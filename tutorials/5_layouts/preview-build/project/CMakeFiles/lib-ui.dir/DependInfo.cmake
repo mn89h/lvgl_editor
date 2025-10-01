@@ -12,8 +12,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/lved/project/components/column/column_gen.c" "project/CMakeFiles/lib-ui.dir/components/column/column_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/components/column/column_gen.c.o.d"
   "/lved/project/components/row/row_gen.c" "project/CMakeFiles/lib-ui.dir/components/row/row_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/components/row/row_gen.c.o.d"
   "/lved/project/screens/screen_layouts_gen.c" "project/CMakeFiles/lib-ui.dir/screens/screen_layouts_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/screens/screen_layouts_gen.c.o.d"
-  "/lved/project/ui_lib.c" "project/CMakeFiles/lib-ui.dir/ui_lib.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_lib.c.o.d"
-  "/lved/project/ui_lib_gen.c" "project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o.d"
+  "/lved/project/ui_layouts.c" "project/CMakeFiles/lib-ui.dir/ui_layouts.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_layouts.c.o.d"
+  "/lved/project/ui_layouts_gen.c" "project/CMakeFiles/lib-ui.dir/ui_layouts_gen.c.o" "gcc" "project/CMakeFiles/lib-ui.dir/ui_layouts_gen.c.o.d"
   )
 
 # Targets to which this target links.

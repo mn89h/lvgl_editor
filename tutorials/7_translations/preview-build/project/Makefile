@@ -181,53 +181,53 @@ screens/screen_translations_gen.c.s:
 	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/screen_translations_gen.c.s
 .PHONY : screens/screen_translations_gen.c.s
 
-ui_lib.o: ui_lib.c.o
-.PHONY : ui_lib.o
+ui_translations.o: ui_translations.c.o
+.PHONY : ui_translations.o
 
 # target to build an object file
-ui_lib.c.o:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib.c.o
-.PHONY : ui_lib.c.o
+ui_translations.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_translations.c.o
+.PHONY : ui_translations.c.o
 
-ui_lib.i: ui_lib.c.i
-.PHONY : ui_lib.i
+ui_translations.i: ui_translations.c.i
+.PHONY : ui_translations.i
 
 # target to preprocess a source file
-ui_lib.c.i:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib.c.i
-.PHONY : ui_lib.c.i
+ui_translations.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_translations.c.i
+.PHONY : ui_translations.c.i
 
-ui_lib.s: ui_lib.c.s
-.PHONY : ui_lib.s
+ui_translations.s: ui_translations.c.s
+.PHONY : ui_translations.s
 
 # target to generate assembly for a file
-ui_lib.c.s:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib.c.s
-.PHONY : ui_lib.c.s
+ui_translations.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_translations.c.s
+.PHONY : ui_translations.c.s
 
-ui_lib_gen.o: ui_lib_gen.c.o
-.PHONY : ui_lib_gen.o
+ui_translations_gen.o: ui_translations_gen.c.o
+.PHONY : ui_translations_gen.o
 
 # target to build an object file
-ui_lib_gen.c.o:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o
-.PHONY : ui_lib_gen.c.o
+ui_translations_gen.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_translations_gen.c.o
+.PHONY : ui_translations_gen.c.o
 
-ui_lib_gen.i: ui_lib_gen.c.i
-.PHONY : ui_lib_gen.i
+ui_translations_gen.i: ui_translations_gen.c.i
+.PHONY : ui_translations_gen.i
 
 # target to preprocess a source file
-ui_lib_gen.c.i:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.i
-.PHONY : ui_lib_gen.c.i
+ui_translations_gen.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_translations_gen.c.i
+.PHONY : ui_translations_gen.c.i
 
-ui_lib_gen.s: ui_lib_gen.c.s
-.PHONY : ui_lib_gen.s
+ui_translations_gen.s: ui_translations_gen.c.s
+.PHONY : ui_translations_gen.s
 
 # target to generate assembly for a file
-ui_lib_gen.c.s:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.s
-.PHONY : ui_lib_gen.c.s
+ui_translations_gen.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_translations_gen.c.s
+.PHONY : ui_translations_gen.c.s
 
 # Help Target
 help:
@@ -244,12 +244,12 @@ help:
 	@echo "... screens/screen_translations_gen.o"
 	@echo "... screens/screen_translations_gen.i"
 	@echo "... screens/screen_translations_gen.s"
-	@echo "... ui_lib.o"
-	@echo "... ui_lib.i"
-	@echo "... ui_lib.s"
-	@echo "... ui_lib_gen.o"
-	@echo "... ui_lib_gen.i"
-	@echo "... ui_lib_gen.s"
+	@echo "... ui_translations.o"
+	@echo "... ui_translations.i"
+	@echo "... ui_translations.s"
+	@echo "... ui_translations_gen.o"
+	@echo "... ui_translations_gen.i"
+	@echo "... ui_translations_gen.s"
 .PHONY : help
 
 

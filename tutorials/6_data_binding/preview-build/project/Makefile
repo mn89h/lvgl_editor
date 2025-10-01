@@ -205,53 +205,53 @@ screens/screen_data_bindings_gen.c.s:
 	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/screen_data_bindings_gen.c.s
 .PHONY : screens/screen_data_bindings_gen.c.s
 
-ui_lib.o: ui_lib.c.o
-.PHONY : ui_lib.o
+ui_data_binding.o: ui_data_binding.c.o
+.PHONY : ui_data_binding.o
 
 # target to build an object file
-ui_lib.c.o:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib.c.o
-.PHONY : ui_lib.c.o
+ui_data_binding.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_data_binding.c.o
+.PHONY : ui_data_binding.c.o
 
-ui_lib.i: ui_lib.c.i
-.PHONY : ui_lib.i
+ui_data_binding.i: ui_data_binding.c.i
+.PHONY : ui_data_binding.i
 
 # target to preprocess a source file
-ui_lib.c.i:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib.c.i
-.PHONY : ui_lib.c.i
+ui_data_binding.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_data_binding.c.i
+.PHONY : ui_data_binding.c.i
 
-ui_lib.s: ui_lib.c.s
-.PHONY : ui_lib.s
+ui_data_binding.s: ui_data_binding.c.s
+.PHONY : ui_data_binding.s
 
 # target to generate assembly for a file
-ui_lib.c.s:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib.c.s
-.PHONY : ui_lib.c.s
+ui_data_binding.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_data_binding.c.s
+.PHONY : ui_data_binding.c.s
 
-ui_lib_gen.o: ui_lib_gen.c.o
-.PHONY : ui_lib_gen.o
+ui_data_binding_gen.o: ui_data_binding_gen.c.o
+.PHONY : ui_data_binding_gen.o
 
 # target to build an object file
-ui_lib_gen.c.o:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o
-.PHONY : ui_lib_gen.c.o
+ui_data_binding_gen.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_data_binding_gen.c.o
+.PHONY : ui_data_binding_gen.c.o
 
-ui_lib_gen.i: ui_lib_gen.c.i
-.PHONY : ui_lib_gen.i
+ui_data_binding_gen.i: ui_data_binding_gen.c.i
+.PHONY : ui_data_binding_gen.i
 
 # target to preprocess a source file
-ui_lib_gen.c.i:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.i
-.PHONY : ui_lib_gen.c.i
+ui_data_binding_gen.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_data_binding_gen.c.i
+.PHONY : ui_data_binding_gen.c.i
 
-ui_lib_gen.s: ui_lib_gen.c.s
-.PHONY : ui_lib_gen.s
+ui_data_binding_gen.s: ui_data_binding_gen.c.s
+.PHONY : ui_data_binding_gen.s
 
 # target to generate assembly for a file
-ui_lib_gen.c.s:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.s
-.PHONY : ui_lib_gen.c.s
+ui_data_binding_gen.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_data_binding_gen.c.s
+.PHONY : ui_data_binding_gen.c.s
 
 # Help Target
 help:
@@ -271,12 +271,12 @@ help:
 	@echo "... screens/screen_data_bindings_gen.o"
 	@echo "... screens/screen_data_bindings_gen.i"
 	@echo "... screens/screen_data_bindings_gen.s"
-	@echo "... ui_lib.o"
-	@echo "... ui_lib.i"
-	@echo "... ui_lib.s"
-	@echo "... ui_lib_gen.o"
-	@echo "... ui_lib_gen.i"
-	@echo "... ui_lib_gen.s"
+	@echo "... ui_data_binding.o"
+	@echo "... ui_data_binding.i"
+	@echo "... ui_data_binding.s"
+	@echo "... ui_data_binding_gen.o"
+	@echo "... ui_data_binding_gen.i"
+	@echo "... ui_data_binding_gen.s"
 .PHONY : help
 
 

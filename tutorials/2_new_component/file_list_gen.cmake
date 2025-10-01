@@ -5,5 +5,5 @@ list(
   ${CMAKE_CURRENT_LIST_DIR}/components/buttons/button_warning_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/components/section_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/screens/screen_components_gen.c
-  ${CMAKE_CURRENT_LIST_DIR}/ui_lib_gen.c
-  ${CMAKE_CURRENT_LIST_DIR}/ui_lib.c)
+  ${CMAKE_CURRENT_LIST_DIR}/ui_new_component_gen.c
+  ${CMAKE_CURRENT_LIST_DIR}/ui_new_component.c)

@@ -31,6 +31,9 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -226,53 +229,53 @@ screens/screen_layouts_gen.c.s:
 	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/screens/screen_layouts_gen.c.s
 .PHONY : screens/screen_layouts_gen.c.s
 
-ui_lib.o: ui_lib.c.o
-.PHONY : ui_lib.o
+ui_layouts.o: ui_layouts.c.o
+.PHONY : ui_layouts.o
 
 # target to build an object file
-ui_lib.c.o:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib.c.o
-.PHONY : ui_lib.c.o
+ui_layouts.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_layouts.c.o
+.PHONY : ui_layouts.c.o
 
-ui_lib.i: ui_lib.c.i
-.PHONY : ui_lib.i
+ui_layouts.i: ui_layouts.c.i
+.PHONY : ui_layouts.i
 
 # target to preprocess a source file
-ui_lib.c.i:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib.c.i
-.PHONY : ui_lib.c.i
+ui_layouts.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_layouts.c.i
+.PHONY : ui_layouts.c.i
 
-ui_lib.s: ui_lib.c.s
-.PHONY : ui_lib.s
+ui_layouts.s: ui_layouts.c.s
+.PHONY : ui_layouts.s
 
 # target to generate assembly for a file
-ui_lib.c.s:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib.c.s
-.PHONY : ui_lib.c.s
+ui_layouts.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_layouts.c.s
+.PHONY : ui_layouts.c.s
 
-ui_lib_gen.o: ui_lib_gen.c.o
-.PHONY : ui_lib_gen.o
+ui_layouts_gen.o: ui_layouts_gen.c.o
+.PHONY : ui_layouts_gen.o
 
 # target to build an object file
-ui_lib_gen.c.o:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o
-.PHONY : ui_lib_gen.c.o
+ui_layouts_gen.c.o:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_layouts_gen.c.o
+.PHONY : ui_layouts_gen.c.o
 
-ui_lib_gen.i: ui_lib_gen.c.i
-.PHONY : ui_lib_gen.i
+ui_layouts_gen.i: ui_layouts_gen.c.i
+.PHONY : ui_layouts_gen.i
 
 # target to preprocess a source file
-ui_lib_gen.c.i:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.i
-.PHONY : ui_lib_gen.c.i
+ui_layouts_gen.c.i:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_layouts_gen.c.i
+.PHONY : ui_layouts_gen.c.i
 
-ui_lib_gen.s: ui_lib_gen.c.s
-.PHONY : ui_lib_gen.s
+ui_layouts_gen.s: ui_layouts_gen.c.s
+.PHONY : ui_layouts_gen.s
 
 # target to generate assembly for a file
-ui_lib_gen.c.s:
-	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.s
-.PHONY : ui_lib_gen.c.s
+ui_layouts_gen.c.s:
+	cd /lved/project/preview-build && $(MAKE) $(MAKESILENT) -f project/CMakeFiles/lib-ui.dir/build.make project/CMakeFiles/lib-ui.dir/ui_layouts_gen.c.s
+.PHONY : ui_layouts_gen.c.s
 
 # Help Target
 help:
@@ -295,12 +298,12 @@ help:
 	@echo "... screens/screen_layouts_gen.o"
 	@echo "... screens/screen_layouts_gen.i"
 	@echo "... screens/screen_layouts_gen.s"
-	@echo "... ui_lib.o"
-	@echo "... ui_lib.i"
-	@echo "... ui_lib.s"
-	@echo "... ui_lib_gen.o"
-	@echo "... ui_lib_gen.i"
-	@echo "... ui_lib_gen.s"
+	@echo "... ui_layouts.o"
+	@echo "... ui_layouts.i"
+	@echo "... ui_layouts.s"
+	@echo "... ui_layouts_gen.o"
+	@echo "... ui_layouts_gen.i"
+	@echo "... ui_layouts_gen.s"
 .PHONY : help
 
 

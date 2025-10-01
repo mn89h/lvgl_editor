@@ -1,4 +1,4 @@
-<globals name="ui_lib">
+<globals name="ui_data_binding">
 	<api>
 		<!-- Add <enumdefs> here -->
 	</api>

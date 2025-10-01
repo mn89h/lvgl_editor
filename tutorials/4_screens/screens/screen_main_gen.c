@@ -8,7 +8,7 @@
  *********************/
 
 #include "screen_main_gen.h"
-#include "ui_lib.h"
+#include "ui_screens.h"
 
 /*********************
  *      DEFINES

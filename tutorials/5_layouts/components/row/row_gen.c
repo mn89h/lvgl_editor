@@ -8,7 +8,7 @@
  *********************/
 
 #include "row_gen.h"
-#include "ui_lib.h"
+#include "ui_layouts.h"
 
 /*********************
  *      DEFINES

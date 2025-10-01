@@ -87,35 +87,35 @@ project/CMakeFiles/lib-ui.dir/screens/screen_translations_gen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lib-ui.dir/screens/screen_translations_gen.c.s"
 	cd /lved/project/preview-build/project && /emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /lved/project/screens/screen_translations_gen.c -o CMakeFiles/lib-ui.dir/screens/screen_translations_gen.c.s
 
-project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o: project/CMakeFiles/lib-ui.dir/flags.make
-project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o: project/CMakeFiles/lib-ui.dir/includes_C.rsp
-project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o: ../ui_lib_gen.c
-project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o: project/CMakeFiles/lib-ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/lved/project/preview-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o"
-	cd /lved/project/preview-build/project && /emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o -MF CMakeFiles/lib-ui.dir/ui_lib_gen.c.o.d -o CMakeFiles/lib-ui.dir/ui_lib_gen.c.o -c /lved/project/ui_lib_gen.c
+project/CMakeFiles/lib-ui.dir/ui_translations_gen.c.o: project/CMakeFiles/lib-ui.dir/flags.make
+project/CMakeFiles/lib-ui.dir/ui_translations_gen.c.o: project/CMakeFiles/lib-ui.dir/includes_C.rsp
+project/CMakeFiles/lib-ui.dir/ui_translations_gen.c.o: ../ui_translations_gen.c
+project/CMakeFiles/lib-ui.dir/ui_translations_gen.c.o: project/CMakeFiles/lib-ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/lved/project/preview-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object project/CMakeFiles/lib-ui.dir/ui_translations_gen.c.o"
+	cd /lved/project/preview-build/project && /emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/lib-ui.dir/ui_translations_gen.c.o -MF CMakeFiles/lib-ui.dir/ui_translations_gen.c.o.d -o CMakeFiles/lib-ui.dir/ui_translations_gen.c.o -c /lved/project/ui_translations_gen.c
 
-project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lib-ui.dir/ui_lib_gen.c.i"
-	cd /lved/project/preview-build/project && /emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /lved/project/ui_lib_gen.c > CMakeFiles/lib-ui.dir/ui_lib_gen.c.i
+project/CMakeFiles/lib-ui.dir/ui_translations_gen.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lib-ui.dir/ui_translations_gen.c.i"
+	cd /lved/project/preview-build/project && /emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /lved/project/ui_translations_gen.c > CMakeFiles/lib-ui.dir/ui_translations_gen.c.i
 
-project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lib-ui.dir/ui_lib_gen.c.s"
-	cd /lved/project/preview-build/project && /emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /lved/project/ui_lib_gen.c -o CMakeFiles/lib-ui.dir/ui_lib_gen.c.s
+project/CMakeFiles/lib-ui.dir/ui_translations_gen.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lib-ui.dir/ui_translations_gen.c.s"
+	cd /lved/project/preview-build/project && /emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /lved/project/ui_translations_gen.c -o CMakeFiles/lib-ui.dir/ui_translations_gen.c.s
 
-project/CMakeFiles/lib-ui.dir/ui_lib.c.o: project/CMakeFiles/lib-ui.dir/flags.make
-project/CMakeFiles/lib-ui.dir/ui_lib.c.o: project/CMakeFiles/lib-ui.dir/includes_C.rsp
-project/CMakeFiles/lib-ui.dir/ui_lib.c.o: ../ui_lib.c
-project/CMakeFiles/lib-ui.dir/ui_lib.c.o: project/CMakeFiles/lib-ui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/lved/project/preview-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object project/CMakeFiles/lib-ui.dir/ui_lib.c.o"
-	cd /lved/project/preview-build/project && /emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/lib-ui.dir/ui_lib.c.o -MF CMakeFiles/lib-ui.dir/ui_lib.c.o.d -o CMakeFiles/lib-ui.dir/ui_lib.c.o -c /lved/project/ui_lib.c
+project/CMakeFiles/lib-ui.dir/ui_translations.c.o: project/CMakeFiles/lib-ui.dir/flags.make
+project/CMakeFiles/lib-ui.dir/ui_translations.c.o: project/CMakeFiles/lib-ui.dir/includes_C.rsp
+project/CMakeFiles/lib-ui.dir/ui_translations.c.o: ../ui_translations.c
+project/CMakeFiles/lib-ui.dir/ui_translations.c.o: project/CMakeFiles/lib-ui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/lved/project/preview-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object project/CMakeFiles/lib-ui.dir/ui_translations.c.o"
+	cd /lved/project/preview-build/project && /emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT project/CMakeFiles/lib-ui.dir/ui_translations.c.o -MF CMakeFiles/lib-ui.dir/ui_translations.c.o.d -o CMakeFiles/lib-ui.dir/ui_translations.c.o -c /lved/project/ui_translations.c
 
-project/CMakeFiles/lib-ui.dir/ui_lib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lib-ui.dir/ui_lib.c.i"
-	cd /lved/project/preview-build/project && /emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /lved/project/ui_lib.c > CMakeFiles/lib-ui.dir/ui_lib.c.i
+project/CMakeFiles/lib-ui.dir/ui_translations.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lib-ui.dir/ui_translations.c.i"
+	cd /lved/project/preview-build/project && /emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /lved/project/ui_translations.c > CMakeFiles/lib-ui.dir/ui_translations.c.i
 
-project/CMakeFiles/lib-ui.dir/ui_lib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lib-ui.dir/ui_lib.c.s"
-	cd /lved/project/preview-build/project && /emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /lved/project/ui_lib.c -o CMakeFiles/lib-ui.dir/ui_lib.c.s
+project/CMakeFiles/lib-ui.dir/ui_translations.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lib-ui.dir/ui_translations.c.s"
+	cd /lved/project/preview-build/project && /emsdk/upstream/emscripten/emcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /lved/project/ui_translations.c -o CMakeFiles/lib-ui.dir/ui_translations.c.s
 
 project/CMakeFiles/lib-ui.dir/fonts/montserrat_14_data.c.o: project/CMakeFiles/lib-ui.dir/flags.make
 project/CMakeFiles/lib-ui.dir/fonts/montserrat_14_data.c.o: project/CMakeFiles/lib-ui.dir/includes_C.rsp
@@ -135,16 +135,16 @@ project/CMakeFiles/lib-ui.dir/fonts/montserrat_14_data.c.s: cmake_force
 # Object files for target lib-ui
 lib__ui_OBJECTS = \
 "CMakeFiles/lib-ui.dir/screens/screen_translations_gen.c.o" \
-"CMakeFiles/lib-ui.dir/ui_lib_gen.c.o" \
-"CMakeFiles/lib-ui.dir/ui_lib.c.o" \
+"CMakeFiles/lib-ui.dir/ui_translations_gen.c.o" \
+"CMakeFiles/lib-ui.dir/ui_translations.c.o" \
 "CMakeFiles/lib-ui.dir/fonts/montserrat_14_data.c.o"
 
 # External object files for target lib-ui
 lib__ui_EXTERNAL_OBJECTS =
 
 project/liblib-ui.a: project/CMakeFiles/lib-ui.dir/screens/screen_translations_gen.c.o
-project/liblib-ui.a: project/CMakeFiles/lib-ui.dir/ui_lib_gen.c.o
-project/liblib-ui.a: project/CMakeFiles/lib-ui.dir/ui_lib.c.o
+project/liblib-ui.a: project/CMakeFiles/lib-ui.dir/ui_translations_gen.c.o
+project/liblib-ui.a: project/CMakeFiles/lib-ui.dir/ui_translations.c.o
 project/liblib-ui.a: project/CMakeFiles/lib-ui.dir/fonts/montserrat_14_data.c.o
 project/liblib-ui.a: project/CMakeFiles/lib-ui.dir/build.make
 project/liblib-ui.a: project/CMakeFiles/lib-ui.dir/link.txt
