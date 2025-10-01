@@ -23,7 +23,7 @@
 			<lv_label text="Back" />
 			<!-- Since the Main screen is permanent <screen_load_event>
 			     shall be used just o load the already existing screen.  -->
-			<screen_load_event screen="screen_main" anim_type="move_bottom" duration="1000" />
+			<screen_load_event screen="screen_main" anim_type="move_bottom" duration="500" />
 		</lv_button>
 	</view>
 </screen>

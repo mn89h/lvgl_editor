@@ -25,6 +25,15 @@
 	</images>
 
 	<fonts>
-		<!-- Add <bin> , <tiny_ttf>, <freetype> tags here -->
+		<!-- Add the non ASCII German symbols used in translations.xml-->
+		<bin
+			name="montserrat_14"
+			as_file="false"
+			bpp="2"
+			src_path="fonts/Montserrat_Medium.ttf"
+			size="14"
+			range="0x20-0x7f"
+			symbols="äü"
+		/>
 	</fonts>
 </globals>
