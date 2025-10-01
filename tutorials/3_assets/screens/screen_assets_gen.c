@@ -47,19 +47,19 @@ lv_obj_t * screen_assets_create(void)
     lv_obj_set_style_pad_all(lv_obj_0, 8, 0);
 
     lv_obj_t * lv_label_0 = lv_label_create(lv_obj_0);
-    lv_label_set_text(lv_label_0, "I'm from a C array: \xc2""\xb0""");
+    lv_label_set_text(lv_label_0, "I'm from a C array: °");
     lv_obj_set_style_text_font(lv_label_0, montserrat_14_c_array, 0);
     
     lv_obj_t * lv_label_1 = lv_label_create(lv_obj_0);
-    lv_label_set_text(lv_label_1, "I'm from a bin file: \xc2""\xb0""");
+    lv_label_set_text(lv_label_1, "I'm from a bin file: °");
     lv_obj_set_style_text_font(lv_label_1, montserrat_16_bin_file, 0);
     
     lv_obj_t * lv_label_2 = lv_label_create(lv_obj_0);
-    lv_label_set_text(lv_label_2, "I'm TinyTTF from data: Sch\xc3""\xb6""ne");
+    lv_label_set_text(lv_label_2, "I'm TinyTTF from data: Schöne");
     lv_obj_set_style_text_font(lv_label_2, montserrat_18_tiny_ttf_data, 0);
     
     lv_obj_t * lv_label_3 = lv_label_create(lv_obj_0);
-    lv_label_set_text(lv_label_3, "I'm TinyTTF from file: Sch\xc3""\xb6""ne");
+    lv_label_set_text(lv_label_3, "I'm TinyTTF from file: Schöne");
     lv_obj_set_style_text_font(lv_label_3, montserrat_20_tiny_ttf_file, 0);
     
     lv_obj_t * lv_obj_1 = lv_obj_create(lv_obj_0);

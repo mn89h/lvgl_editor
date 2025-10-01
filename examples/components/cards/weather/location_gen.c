@@ -91,7 +91,7 @@ lv_obj_t * location_create(lv_obj_t * parent, const char * city_text, lv_subject
     lv_spangroup_bind_span_text(lv_spangroup_0, lv_spangroup_span_0, temp, NULL);
     lv_spangroup_set_span_style(lv_spangroup_0, lv_spangroup_span_0, &style_big_temp);
     lv_span_t * lv_spangroup_span_1 = lv_spangroup_add_span(lv_spangroup_0);
-    lv_spangroup_set_span_text(lv_spangroup_0, lv_spangroup_span_1, "\xc2""\xb0""C");
+    lv_spangroup_set_span_text(lv_spangroup_0, lv_spangroup_span_1, "°C");
 
     LV_TRACE_OBJ_CREATE("finished");
 

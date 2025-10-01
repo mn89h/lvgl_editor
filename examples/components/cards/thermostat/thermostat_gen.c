@@ -113,7 +113,7 @@ lv_obj_t * thermostat_create(lv_obj_t * parent)
     lv_obj_add_style(center, &style_center, 0);
     lv_obj_bind_style(center, &style_center_dark, 0, &dark_theme, 1);
     lv_obj_t * lv_label_0 = lv_label_create(center);
-    lv_label_bind_text(lv_label_0, &room_temp, "%d \xc2""\xb0""C");
+    lv_label_bind_text(lv_label_0, &room_temp, "%d °C");
     lv_obj_set_style_text_font(lv_label_0, geist_semibold_28, 0);
     lv_obj_set_align(lv_label_0, LV_ALIGN_CENTER);
     
@@ -158,7 +158,7 @@ lv_obj_t * thermostat_create(lv_obj_t * parent)
     lv_obj_set_style_flex_track_place(div_1, LV_FLEX_ALIGN_CENTER, 0);
     lv_obj_set_style_margin_top(div_1, -12, 0);
     lv_obj_t * lv_label_1 = lv_label_create(div_1);
-    lv_label_set_text(lv_label_1, "Heating up to 24 \xc2""\xb0""C");
+    lv_label_set_text(lv_label_1, "Heating up to 24 °C");
 
     LV_TRACE_OBJ_CREATE("finished");
 
