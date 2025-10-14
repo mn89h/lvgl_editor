@@ -46,13 +46,6 @@ lv_obj_t * list_create(lv_obj_t * parent)
     lv_obj_set_height(lv_obj_0, lv_pct(100));
     lv_obj_set_width(lv_obj_0, lv_pct(50));
 
-
-    // create animation timeline(s)
-    lv_anim_timeline_t ** at_array = lv_malloc(sizeof(lv_anim_timeline_t *) * _LIST_TIMELINE_CNT);
-    at_array[LIST_TIMELINE_LIST_OPEN] = timeline_list_open_create(lv_obj_0);
-    lv_obj_set_user_data(lv_obj_0, at_array);
-    lv_obj_add_event_cb(lv_obj_0, free_timeline_event_cb, LV_EVENT_DELETE, at_array);
-
     lv_obj_t * button_0 = button_normal_create(lv_obj_0, "Button 0");
     lv_obj_set_name(button_0, "button_0");
     
@@ -76,10 +69,17 @@ lv_obj_t * list_create(lv_obj_t * parent)
     
     lv_obj_t * button_7 = button_normal_create(lv_obj_0, "Button 7");
     lv_obj_set_name(button_7, "button_7");
+    
+    
+    /* create animation timeline(s) */
+    lv_anim_timeline_t ** at_array = lv_malloc(sizeof(lv_anim_timeline_t *) * _LIST_TIMELINE_CNT);
+    at_array[LIST_TIMELINE_LIST_OPEN] = timeline_list_open_create(lv_obj_0);
+    lv_obj_set_user_data(lv_obj_0, at_array);
+    lv_obj_add_event_cb(lv_obj_0, free_timeline_event_cb, LV_EVENT_DELETE, at_array);
 
     LV_TRACE_OBJ_CREATE("finished");
 
-    lv_obj_set_name(lv_obj_0, "list_#");
+    lv_obj_set_name_static(lv_obj_0, "list_#");
 
     return lv_obj_0;
 }

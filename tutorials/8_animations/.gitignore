@@ -1,1 +1,3 @@
 preview-build/
+preview-bin/*.log
+preview-bin/.hash
