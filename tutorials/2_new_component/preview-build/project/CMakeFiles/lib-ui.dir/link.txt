@@ -1,2 +1,0 @@
-/emsdk/upstream/emscripten/emar qc liblib-ui.a CMakeFiles/lib-ui.dir/components/buttons/button_normal_gen.c.o CMakeFiles/lib-ui.dir/components/buttons/button_warning_gen.c.o CMakeFiles/lib-ui.dir/components/section_gen.c.o CMakeFiles/lib-ui.dir/screens/screen_components_gen.c.o CMakeFiles/lib-ui.dir/ui_new_component_gen.c.o CMakeFiles/lib-ui.dir/ui_new_component.c.o
-/emsdk/upstream/emscripten/emranlib liblib-ui.a

@@ -1,2 +1,0 @@
-/emsdk/upstream/emscripten/emar qc liblib-ui.a CMakeFiles/lib-ui.dir/components/round_button_gen.c.o CMakeFiles/lib-ui.dir/components/sliderbox_gen.c.o CMakeFiles/lib-ui.dir/screens/screen_data_bindings_gen.c.o CMakeFiles/lib-ui.dir/ui_data_binding_gen.c.o CMakeFiles/lib-ui.dir/ui_data_binding.c.o
-/emsdk/upstream/emscripten/emranlib liblib-ui.a
