@@ -483,6 +483,8 @@ project/CMakeFiles/lib-ui.dir/components/row/row_gen.c.o: \
   /lved/resources/lvgl/src/drivers/display/st7789/../lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
   /lved/resources/lvgl/src/drivers/display/st7796/../lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/nv3007/lv_nv3007.h \
+  /lved/resources/lvgl/src/drivers/display/nv3007/../lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
   /lved/resources/lvgl/src/drivers/display/renesas_glcdc/../../../display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \

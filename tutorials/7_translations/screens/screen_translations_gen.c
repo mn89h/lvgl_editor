@@ -43,6 +43,7 @@ lv_obj_t * screen_translations_create(void)
     }
 
     lv_obj_t * lv_obj_0 = lv_obj_create(NULL);
+    lv_obj_set_name_static(lv_obj_0, "screen_translations_#");
     lv_obj_set_flex_flow(lv_obj_0, LV_FLEX_FLOW_COLUMN);
     lv_obj_set_style_text_font(lv_obj_0, montserrat_14, 0);
 
@@ -59,8 +60,6 @@ lv_obj_t * screen_translations_create(void)
     lv_label_set_translation_tag(lv_label_3, "person");
 
     LV_TRACE_OBJ_CREATE("finished");
-
-    lv_obj_set_name(lv_obj_0, "screen_translations");
 
     return lv_obj_0;
 }

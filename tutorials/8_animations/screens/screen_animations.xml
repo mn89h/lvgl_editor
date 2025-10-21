@@ -20,7 +20,7 @@
 		     Give it a name so that it an be easily referenced in the timeline target. -->
 		<list name="button_list" />
 
-		<!-- 📖A Show button play the open animation of the list -->
+		<!-- A Show button play the open animation of the list -->
 		<button_normal label_text="Show" name="show" align="top_right" x="-10" y="10">
 			<play_timeline_event target="button_list" timeline="list_open" />
 		</button_normal>

@@ -506,6 +506,8 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: \
   /lved/resources/lvgl/src/drivers/display/st7789/../lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
   /lved/resources/lvgl/src/drivers/display/st7796/../lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/nv3007/lv_nv3007.h \
+  /lved/resources/lvgl/src/drivers/display/nv3007/../lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
   /lved/resources/lvgl/src/drivers/display/renesas_glcdc/../../../display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
@@ -861,4 +863,5 @@ CMakeFiles/lved-runtime.dir/src/runtime.c.o: \
   /lved/resources/lvgl/src/../src/libs/ffmpeg/lv_ffmpeg.h \
   /lved/resources/lvgl/src/../src/widgets/lottie/lv_lottie_private.h \
   /lved/resources/lvgl/src/../src/widgets/lottie/../../lv_conf_internal.h \
-  /lved/resources/lvgl/src/../src/osal/lv_os_private.h
+  /lved/resources/lvgl/src/../src/osal/lv_os_private.h \
+  /lved/resources/lvgl/src/core/lv_global.h

@@ -35,11 +35,10 @@ lv_obj_t * button_warning_create(lv_obj_t * parent, const char * label_text)
     LV_TRACE_OBJ_CREATE("begin");
 
     lv_obj_t * button_normal_0 = button_normal_create(parent, label_text);
+    lv_obj_set_name_static(button_normal_0, "button_warning_#");
     lv_obj_set_style_bg_color(button_normal_0, YELLOW, 0);
 
     LV_TRACE_OBJ_CREATE("finished");
-
-    lv_obj_set_name(button_normal_0, "button_warning_#");
 
     return button_normal_0;
 }

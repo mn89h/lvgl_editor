@@ -46,6 +46,7 @@ lv_obj_t * screen_hello_world_create(void)
     }
 
     lv_obj_t * lv_obj_0 = lv_obj_create(NULL);
+    lv_obj_set_name_static(lv_obj_0, "screen_hello_world_#");
 
     lv_obj_add_style(lv_obj_0, &style_main, 0);
     lv_obj_t * lv_button_0 = lv_button_create(lv_obj_0);
@@ -56,8 +57,6 @@ lv_obj_t * screen_hello_world_create(void)
     lv_obj_set_style_text_font(lv_label_0, font_medium, 0);
 
     LV_TRACE_OBJ_CREATE("finished");
-
-    lv_obj_set_name(lv_obj_0, "screen_hello_world");
 
     return lv_obj_0;
 }

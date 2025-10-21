@@ -38,6 +38,7 @@ lv_obj_t * list_create(lv_obj_t * parent)
     LV_TRACE_OBJ_CREATE("begin");
 
     lv_obj_t * lv_obj_0 = lv_obj_create(parent);
+    lv_obj_set_name_static(lv_obj_0, "list_#");
     lv_obj_set_flex_flow(lv_obj_0, LV_FLEX_FLOW_COLUMN);
     lv_obj_set_style_pad_all(lv_obj_0, UNIT_SMALL, 0);
     lv_obj_set_style_flex_cross_place(lv_obj_0, LV_FLEX_ALIGN_CENTER, 0);
@@ -78,8 +79,6 @@ lv_obj_t * list_create(lv_obj_t * parent)
     lv_obj_add_event_cb(lv_obj_0, free_timeline_event_cb, LV_EVENT_DELETE, at_array);
 
     LV_TRACE_OBJ_CREATE("finished");
-
-    lv_obj_set_name_static(lv_obj_0, "list_#");
 
     return lv_obj_0;
 }

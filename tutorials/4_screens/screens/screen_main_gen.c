@@ -44,6 +44,7 @@ lv_obj_t * screen_main_create(void)
 
     if (screen_main == NULL) screen_main = lv_obj_create(NULL);
     lv_obj_t * lv_obj_0 = screen_main;
+    lv_obj_set_name_static(lv_obj_0, "screen_main_#");
 
     lv_obj_t * lv_label_0 = lv_label_create(lv_obj_0);
     lv_label_set_text(lv_label_0, "Main screen  (permanent)");
@@ -68,8 +69,6 @@ lv_obj_t * screen_main_create(void)
     lv_obj_add_screen_create_event(lv_button_0, LV_EVENT_CLICKED, screen_about_create, LV_SCREEN_LOAD_ANIM_MOVE_TOP, 500, 0);
 
     LV_TRACE_OBJ_CREATE("finished");
-
-    lv_obj_set_name(lv_obj_0, "screen_main");
 
     return lv_obj_0;
 }

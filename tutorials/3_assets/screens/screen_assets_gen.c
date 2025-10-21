@@ -43,6 +43,7 @@ lv_obj_t * screen_assets_create(void)
     }
 
     lv_obj_t * lv_obj_0 = lv_obj_create(NULL);
+    lv_obj_set_name_static(lv_obj_0, "screen_assets_#");
     lv_obj_set_flex_flow(lv_obj_0, LV_FLEX_FLOW_COLUMN);
     lv_obj_set_style_pad_all(lv_obj_0, 8, 0);
 
@@ -73,8 +74,6 @@ lv_obj_t * screen_assets_create(void)
     lv_image_set_src(lv_image_1, flower_file);
 
     LV_TRACE_OBJ_CREATE("finished");
-
-    lv_obj_set_name(lv_obj_0, "screen_assets");
 
     return lv_obj_0;
 }

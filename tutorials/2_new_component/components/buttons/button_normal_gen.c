@@ -58,6 +58,7 @@ lv_obj_t * button_normal_create(lv_obj_t * parent, const char * label_text)
     }
 
     lv_obj_t * lv_button_0 = lv_button_create(parent);
+    lv_obj_set_name_static(lv_button_0, "button_normal_#");
 
     lv_obj_remove_style_all(lv_button_0);
     lv_obj_add_style(lv_button_0, &style_base, 0);
@@ -67,8 +68,6 @@ lv_obj_t * button_normal_create(lv_obj_t * parent, const char * label_text)
     lv_obj_set_align(lv_label_0, LV_ALIGN_CENTER);
 
     LV_TRACE_OBJ_CREATE("finished");
-
-    lv_obj_set_name(lv_button_0, "button_normal_#");
 
     return lv_button_0;
 }

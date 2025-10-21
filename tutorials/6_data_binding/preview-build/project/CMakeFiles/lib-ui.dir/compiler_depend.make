@@ -487,6 +487,8 @@ project/CMakeFiles/lib-ui.dir/components/round_button_gen.c.o: /lved/project/com
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/nv3007/lv_nv3007.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
@@ -1025,6 +1027,8 @@ project/CMakeFiles/lib-ui.dir/components/sliderbox_gen.c.o: /lved/project/compon
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/nv3007/lv_nv3007.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
@@ -1562,6 +1566,8 @@ project/CMakeFiles/lib-ui.dir/screens/screen_data_bindings_gen.c.o: /lved/projec
   /lved/resources/lvgl/src/drivers/display/st7789/lv_st7789.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/nv3007/lv_nv3007.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
   /lved/resources/lvgl/src/display/lv_display.h \
@@ -2102,6 +2108,8 @@ project/CMakeFiles/lib-ui.dir/ui_data_binding.c.o: /lved/project/ui_data_binding
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/nv3007/lv_nv3007.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
@@ -2639,6 +2647,8 @@ project/CMakeFiles/lib-ui.dir/ui_data_binding_gen.c.o: /lved/project/ui_data_bin
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h \
   /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
+  /lved/resources/lvgl/src/drivers/display/nv3007/lv_nv3007.h \
+  /lved/resources/lvgl/src/drivers/display/lcd/lv_lcd_generic_mipi.h \
   /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h \
   /lved/resources/lvgl/src/display/lv_display.h \
   /lved/resources/lvgl/src/drivers/display/st_ltdc/lv_st_ltdc.h \
@@ -2730,6 +2740,8 @@ project/CMakeFiles/lib-ui.dir/ui_data_binding_gen.c.o: /lved/project/ui_data_bin
 /lved/resources/lvgl/src/drivers/draw/eve/lv_draw_eve_display.h:
 
 /lved/resources/lvgl/src/drivers/display/renesas_glcdc/lv_renesas_glcdc.h:
+
+/lved/resources/lvgl/src/drivers/display/nv3007/lv_nv3007.h:
 
 /lved/resources/lvgl/src/drivers/display/st7796/lv_st7796.h:
 

@@ -53,6 +53,7 @@ lv_obj_t * sliderbox_create(lv_obj_t * parent, const char * title, lv_subject_t 
     }
 
     lv_obj_t * lv_obj_0 = lv_obj_create(parent);
+    lv_obj_set_name_static(lv_obj_0, "sliderbox_#");
     lv_obj_set_width(lv_obj_0, WIDTH);
     lv_obj_set_height(lv_obj_0, LV_SIZE_CONTENT);
     lv_obj_set_flex_flow(lv_obj_0, LV_FLEX_FLOW_ROW);
@@ -80,8 +81,6 @@ lv_obj_t * sliderbox_create(lv_obj_t * parent, const char * title, lv_subject_t 
     lv_obj_set_width(lv_slider_0, lv_pct(100));
 
     LV_TRACE_OBJ_CREATE("finished");
-
-    lv_obj_set_name(lv_obj_0, "sliderbox_#");
 
     return lv_obj_0;
 }

@@ -43,6 +43,7 @@ lv_obj_t * screen_layouts_create(void)
     }
 
     lv_obj_t * lv_obj_0 = lv_obj_create(NULL);
+    lv_obj_set_name_static(lv_obj_0, "screen_layouts_#");
 
     lv_obj_t * column_0 = column_create(lv_obj_0);
     lv_obj_set_width(column_0, lv_pct(100));
@@ -111,8 +112,6 @@ lv_obj_t * screen_layouts_create(void)
     lv_obj_set_y(button_3, -12);
 
     LV_TRACE_OBJ_CREATE("finished");
-
-    lv_obj_set_name(lv_obj_0, "screen_layouts");
 
     return lv_obj_0;
 }

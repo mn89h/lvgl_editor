@@ -43,6 +43,7 @@ lv_obj_t * screen_about_create(void)
     }
 
     lv_obj_t * lv_obj_0 = lv_obj_create(NULL);
+    lv_obj_set_name_static(lv_obj_0, "screen_about_#");
     lv_obj_set_style_bg_color(lv_obj_0, lv_color_hex(0x041d3a), 0);
     lv_obj_set_style_text_color(lv_obj_0, lv_color_hex3(0xfff), 0);
 
@@ -69,8 +70,6 @@ lv_obj_t * screen_about_create(void)
     lv_obj_add_screen_load_event(lv_button_0, LV_EVENT_CLICKED, screen_main, LV_SCREEN_LOAD_ANIM_MOVE_BOTTOM, 500, 0);
 
     LV_TRACE_OBJ_CREATE("finished");
-
-    lv_obj_set_name(lv_obj_0, "screen_about");
 
     return lv_obj_0;
 }

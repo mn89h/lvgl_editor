@@ -43,6 +43,7 @@ lv_obj_t * screen_components_create(void)
     }
 
     lv_obj_t * lv_obj_0 = lv_obj_create(NULL);
+    lv_obj_set_name_static(lv_obj_0, "screen_components_#");
     lv_obj_set_flex_flow(lv_obj_0, LV_FLEX_FLOW_COLUMN);
     lv_obj_set_style_pad_all(lv_obj_0, UNIT_SMALL, 0);
     lv_obj_set_style_flex_cross_place(lv_obj_0, LV_FLEX_ALIGN_CENTER, 0);
@@ -65,8 +66,6 @@ lv_obj_t * screen_components_create(void)
     lv_obj_t * button_warning_1 = button_warning_create(lv_obj_0, "Upps!");
 
     LV_TRACE_OBJ_CREATE("finished");
-
-    lv_obj_set_name(lv_obj_0, "screen_components");
 
     return lv_obj_0;
 }
