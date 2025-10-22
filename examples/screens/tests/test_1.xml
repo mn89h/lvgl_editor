@@ -18,4 +18,5 @@
         <wait ms="500" />
         <screenshot_compare path="show_move_goal.png" />
    </steps>
+
 </test>
