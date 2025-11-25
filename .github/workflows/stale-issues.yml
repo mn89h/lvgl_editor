@@ -1,0 +1,15 @@
+name: Mark stale issues and PRs
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          days-before-stale: 30
+          stale-issue-message: 'This issue has been inactive for 30 days. If it is still important, please add a comment or we will consider it resolved.'
+          days-before-close: -1   # Never close, just comment
