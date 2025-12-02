@@ -57,6 +57,7 @@ jobs:
                 DEST=~/runtimes-branch/branches/${CURRENT_BRANCH}/${{ github.event.inputs.subfolder }}
                 mkdir -p ${DEST}
                 cp -r ${{ github.event.inputs.subfolder }} ~/runtimes-branch
+                cd ${{ github.event.inputs.subfolder }}
                 cp preview-bin/lved-runtime.js ${DEST}/lved-runtime.js
                 ls ~/runtimes-branch
                 echo
