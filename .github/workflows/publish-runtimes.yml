@@ -50,7 +50,9 @@ jobs:
 
             - name: Commit the runtime to branch 'lvgl-previews' and push
               run: |
+                ls
                 cd ${{ github.event.inputs.subfolder }}
+                ls
                 git worktree add -f ~/runtimes-branch lvgl-previews
                 CURRENT_BRANCH=$(git branch --show-current)
                 DEST=~/runtimes-branch/branches/${CURRENT_BRANCH}/${{ github.event.inputs.subfolder }}
