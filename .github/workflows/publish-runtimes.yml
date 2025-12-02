@@ -52,6 +52,7 @@ jobs:
               run: |
                 ls
                 echo
+                git add ${{ github.event.inputs.subfolder }}
                 cd ${{ github.event.inputs.subfolder }}
                 ls
                 echo
