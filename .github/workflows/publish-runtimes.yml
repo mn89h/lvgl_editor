@@ -43,6 +43,11 @@ jobs:
                 # run it to show the version
                 ./lved-cli.js -V
 
+            - name: Generate code
+              run: |
+                # generate the project
+                ./lved-cli.js generate ${{ github.event.inputs.subfolder }}
+                
             - name: Compile the preview runtime
               run: |
                 # compile the project
