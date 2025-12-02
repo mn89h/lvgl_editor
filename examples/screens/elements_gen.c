@@ -75,10 +75,6 @@ lv_obj_t * elements_create(void)
     lv_obj_set_style_pad_row(div_0, UNIT_XL, 0);
     lv_obj_t * alarm_0 = alarm_create(div_0);
     
-    lv_obj_t * thermostat_0 = thermostat_create(div_0);
-    
-    lv_obj_t * move_goal_0 = move_goal_create(div_0);
-    
     lv_obj_t * weather_0 = weather_create(div_0);
     
     lv_obj_t * light_temperature_0 = light_temperature_create(div_0);
