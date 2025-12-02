@@ -24,8 +24,6 @@
 			style_pad_row="#unit_xl"
 		>
 			<alarm />
-			<thermostat />
-			<move_goal />
 			<weather />
 			<light_temperature />
 			<music_player />
