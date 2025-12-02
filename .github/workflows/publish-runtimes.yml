@@ -54,10 +54,11 @@ jobs:
                 echo
                 git worktree add -f ~/runtimes-branch lvgl-previews
                 CURRENT_BRANCH=$(git branch --show-current)
-                cp ${{ github.event.inputs.subfolder }} ~/runtimes-branch
                 DEST=~/runtimes-branch/branches/${CURRENT_BRANCH}/${{ github.event.inputs.subfolder }}
                 mkdir -p ${DEST}
+                cp ${{ github.event.inputs.subfolder }} ~/runtimes-branch
                 cp preview-bin/lved-runtime.js ${DEST}/lved-runtime.js
+                ls ~/runtimes-branch
                 echo
                 cd ~/runtimes-branch
                 git add ${{ github.event.inputs.subfolder }}
