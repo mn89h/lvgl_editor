@@ -52,11 +52,9 @@ jobs:
               run: |
                 ls
                 echo
-                cd ${{ github.event.inputs.subfolder }}
-                ls
-                echo
-                git add *
                 git worktree add -f ~/runtimes-branch lvgl-previews
+                git add ${{ github.event.inputs.subfolder }}
+                cd ${{ github.event.inputs.subfolder }}
                 CURRENT_BRANCH=$(git branch --show-current)
                 DEST=~/runtimes-branch/branches/${CURRENT_BRANCH}/${{ github.event.inputs.subfolder }}
                 mkdir -p ${DEST}
