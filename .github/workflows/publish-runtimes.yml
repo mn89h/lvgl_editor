@@ -51,14 +51,18 @@ jobs:
             - name: Commit the runtime to branch 'lvgl-previews' and push
               run: |
                 ls
+                echo.
                 cd ${{ github.event.inputs.subfolder }}
                 ls
+                echo.
                 git worktree add -f ~/runtimes-branch lvgl-previews
                 CURRENT_BRANCH=$(git branch --show-current)
                 DEST=~/runtimes-branch/branches/${CURRENT_BRANCH}/${{ github.event.inputs.subfolder }}
                 mkdir -p ${DEST}
-                cp preview-bin/lved-runtime.js ${DEST}/lved-runtime.*
+                cp preview-bin/lved-runtime.js ${DEST}/lved-runtime.js
                 cd ${DEST}
+                ls
+                echo.
                 git add lved-runtime.js
                 git status
 
