@@ -40,10 +40,6 @@
  *-------------------*/
 
 /*----------------
- * Global styles
- *----------------*/
-
-/*----------------
  * Fonts
  *----------------*/
 
@@ -65,6 +61,10 @@ extern const void * flower_data_data;
 const void * flower_file;
 
 /*----------------
+ * Global styles
+ *----------------*/
+
+/*----------------
  * Subjects
  *----------------*/
 
@@ -79,10 +79,6 @@ const void * flower_file;
 void ui_assets_init_gen(const char * asset_path)
 {
     char buf[256];
-
-    /*----------------
-     * Global styles
-     *----------------*/
 
     /*----------------
      * Fonts
@@ -105,6 +101,10 @@ void ui_assets_init_gen(const char * asset_path)
     flower_data = &flower_data_data;
     lv_snprintf(buf, 256, "%s%s", asset_path, "images/orange-flower.png");
     flower_file = lv_strdup(buf);
+
+    /*----------------
+     * Global styles
+     *----------------*/
 
     /*----------------
      * Subjects

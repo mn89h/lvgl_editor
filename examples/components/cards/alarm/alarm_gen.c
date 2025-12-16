@@ -179,8 +179,8 @@ static lv_anim_timeline_t * timeline_open_create(lv_obj_t * obj)
     lv_anim_set_values(&a, 0, 255);
     lv_anim_set_duration(&a, 200);
     lv_anim_set_user_data(&a, (void *)((uintptr_t)selector_and_prop));
-    lv_anim_timeline_add(at, 0, &a);
     lv_anim_set_early_apply(&a, true);
+    lv_anim_timeline_add(at, 0, &a);
 
     selector_and_prop = ((LV_STYLE_TRANSLATE_Y & 0xff) << 24) | 0;
     lv_anim_init(&a);
@@ -189,8 +189,8 @@ static lv_anim_timeline_t * timeline_open_create(lv_obj_t * obj)
     lv_anim_set_values(&a, -40, 0);
     lv_anim_set_duration(&a, 200);
     lv_anim_set_user_data(&a, (void *)((uintptr_t)selector_and_prop));
-    lv_anim_timeline_add(at, 0, &a);
     lv_anim_set_early_apply(&a, true);
+    lv_anim_timeline_add(at, 0, &a);
 
     selector_and_prop = ((LV_STYLE_OPA & 0xff) << 24) | 0;
     lv_anim_init(&a);
@@ -199,8 +199,8 @@ static lv_anim_timeline_t * timeline_open_create(lv_obj_t * obj)
     lv_anim_set_values(&a, 0, 255);
     lv_anim_set_duration(&a, 200);
     lv_anim_set_user_data(&a, (void *)((uintptr_t)selector_and_prop));
-    lv_anim_timeline_add(at, 0, &a);
     lv_anim_set_early_apply(&a, true);
+    lv_anim_timeline_add(at, 0, &a);
 
     selector_and_prop = ((LV_STYLE_OPA & 0xff) << 24) | 0;
     lv_anim_init(&a);
@@ -209,8 +209,8 @@ static lv_anim_timeline_t * timeline_open_create(lv_obj_t * obj)
     lv_anim_set_values(&a, 0, 255);
     lv_anim_set_duration(&a, 200);
     lv_anim_set_user_data(&a, (void *)((uintptr_t)selector_and_prop));
-    lv_anim_timeline_add(at, 100, &a);
     lv_anim_set_early_apply(&a, true);
+    lv_anim_timeline_add(at, 100, &a);
 
     selector_and_prop = ((LV_STYLE_TRANSLATE_X & 0xff) << 24) | 0;
     lv_anim_init(&a);
@@ -219,8 +219,8 @@ static lv_anim_timeline_t * timeline_open_create(lv_obj_t * obj)
     lv_anim_set_values(&a, -40, 0);
     lv_anim_set_duration(&a, 200);
     lv_anim_set_user_data(&a, (void *)((uintptr_t)selector_and_prop));
-    lv_anim_timeline_add(at, 100, &a);
     lv_anim_set_early_apply(&a, true);
+    lv_anim_timeline_add(at, 100, &a);
 
     selector_and_prop = ((LV_STYLE_OPA & 0xff) << 24) | 0;
     lv_anim_init(&a);
@@ -229,8 +229,8 @@ static lv_anim_timeline_t * timeline_open_create(lv_obj_t * obj)
     lv_anim_set_values(&a, 0, 255);
     lv_anim_set_duration(&a, 200);
     lv_anim_set_user_data(&a, (void *)((uintptr_t)selector_and_prop));
-    lv_anim_timeline_add(at, 100, &a);
     lv_anim_set_early_apply(&a, true);
+    lv_anim_timeline_add(at, 100, &a);
 
     selector_and_prop = ((LV_STYLE_TRANSLATE_X & 0xff) << 24) | 0;
     lv_anim_init(&a);
@@ -239,8 +239,8 @@ static lv_anim_timeline_t * timeline_open_create(lv_obj_t * obj)
     lv_anim_set_values(&a, 40, 0);
     lv_anim_set_duration(&a, 200);
     lv_anim_set_user_data(&a, (void *)((uintptr_t)selector_and_prop));
-    lv_anim_timeline_add(at, 100, &a);
     lv_anim_set_early_apply(&a, true);
+    lv_anim_timeline_add(at, 100, &a);
 
     selector_and_prop = ((LV_STYLE_OPA & 0xff) << 24) | 0;
     lv_anim_init(&a);
@@ -249,8 +249,8 @@ static lv_anim_timeline_t * timeline_open_create(lv_obj_t * obj)
     lv_anim_set_values(&a, 0, 255);
     lv_anim_set_duration(&a, 200);
     lv_anim_set_user_data(&a, (void *)((uintptr_t)selector_and_prop));
-    lv_anim_timeline_add(at, 100, &a);
     lv_anim_set_early_apply(&a, true);
+    lv_anim_timeline_add(at, 100, &a);
 
     selector_and_prop = ((LV_STYLE_TRANSLATE_Y & 0xff) << 24) | 0;
     lv_anim_init(&a);
@@ -259,8 +259,8 @@ static lv_anim_timeline_t * timeline_open_create(lv_obj_t * obj)
     lv_anim_set_values(&a, -40, 0);
     lv_anim_set_duration(&a, 200);
     lv_anim_set_user_data(&a, (void *)((uintptr_t)selector_and_prop));
-    lv_anim_timeline_add(at, 100, &a);
     lv_anim_set_early_apply(&a, true);
+    lv_anim_timeline_add(at, 100, &a);
 
     return at;
 }

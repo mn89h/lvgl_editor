@@ -40,14 +40,6 @@
  *-------------------*/
 
 /*----------------
- * Global styles
- *----------------*/
-
-lv_style_t style_disabled;
-lv_style_t style_reset;
-lv_style_t figma_import_test;
-
-/*----------------
  * Fonts
  *----------------*/
 
@@ -87,6 +79,14 @@ const void * icon_pin;
 const void * icon_theme;
 
 /*----------------
+ * Global styles
+ *----------------*/
+
+lv_style_t style_disabled;
+lv_style_t style_reset;
+lv_style_t figma_import_test;
+
+/*----------------
  * Subjects
  *----------------*/
 
@@ -119,31 +119,6 @@ lv_subject_t song_playing;
 void examples_init_gen(const char * asset_path)
 {
     char buf[256];
-
-    /*----------------
-     * Global styles
-     *----------------*/
-
-    static bool style_inited = false;
-
-    if (!style_inited) {
-        lv_style_init(&style_disabled);
-        lv_style_set_opa_layered(&style_disabled, (255 * 60 / 100));
-
-        lv_style_init(&style_reset);
-        lv_style_set_width(&style_reset, LV_SIZE_CONTENT);
-        lv_style_set_height(&style_reset, LV_SIZE_CONTENT);
-        lv_style_set_bg_opa(&style_reset, 0);
-        lv_style_set_border_width(&style_reset, 0);
-        lv_style_set_radius(&style_reset, 0);
-        lv_style_set_pad_all(&style_reset, 0);
-
-        lv_style_init(&figma_import_test);
-        lv_style_set_width(&figma_import_test, 24);
-        lv_style_set_height(&figma_import_test, 24);
-
-        style_inited = true;
-    }
 
     /*----------------
      * Fonts
@@ -223,6 +198,31 @@ void examples_init_gen(const char * asset_path)
     icon_pin = lv_strdup(buf);
     lv_snprintf(buf, 256, "%s%s", asset_path, "images/icon_theme.png");
     icon_theme = lv_strdup(buf);
+
+    /*----------------
+     * Global styles
+     *----------------*/
+
+    static bool style_inited = false;
+
+    if (!style_inited) {
+        lv_style_init(&style_disabled);
+        lv_style_set_opa_layered(&style_disabled, (255 * 60 / 100));
+
+        lv_style_init(&style_reset);
+        lv_style_set_width(&style_reset, LV_SIZE_CONTENT);
+        lv_style_set_height(&style_reset, LV_SIZE_CONTENT);
+        lv_style_set_bg_opa(&style_reset, 0);
+        lv_style_set_border_width(&style_reset, 0);
+        lv_style_set_radius(&style_reset, 0);
+        lv_style_set_pad_all(&style_reset, 0);
+
+        lv_style_init(&figma_import_test);
+        lv_style_set_width(&figma_import_test, 24);
+        lv_style_set_height(&figma_import_test, 24);
+
+        style_inited = true;
+    }
 
     /*----------------
      * Subjects

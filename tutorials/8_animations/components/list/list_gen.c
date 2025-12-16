@@ -125,8 +125,8 @@ static lv_anim_timeline_t * timeline_list_open_create(lv_obj_t * obj)
     lv_anim_set_values(&a, 0, 255);
     lv_anim_set_duration(&a, 300);
     lv_anim_set_user_data(&a, (void *)((uintptr_t)selector_and_prop));
-    lv_anim_timeline_add(at, 0, &a);
     lv_anim_set_early_apply(&a, true);
+    lv_anim_timeline_add(at, 0, &a);
 
     selector_and_prop = ((LV_STYLE_TRANSLATE_X & 0xff) << 24) | 0;
     lv_anim_init(&a);
@@ -135,8 +135,8 @@ static lv_anim_timeline_t * timeline_list_open_create(lv_obj_t * obj)
     lv_anim_set_values(&a, -60, 0);
     lv_anim_set_duration(&a, 300);
     lv_anim_set_user_data(&a, (void *)((uintptr_t)selector_and_prop));
-    lv_anim_timeline_add(at, 0, &a);
     lv_anim_set_early_apply(&a, true);
+    lv_anim_timeline_add(at, 0, &a);
 
     lv_obj_t * button_0 = lv_obj_find_by_name(obj, "button_0");
     at_to_merge = button_normal_get_timeline(button_0, BUTTON_NORMAL_TIMELINE_SHOW_UP);
