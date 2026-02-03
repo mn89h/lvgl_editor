@@ -14,16 +14,16 @@
 		<bind_style subject="dark_theme" name="style_light" ref_value="0" />
 		<bind_style subject="dark_theme" name="style_dark" ref_value="1" />
 
-		<lv_tabview active="3">
+		<lv_tabview active="1" tab_bar_position="bottom">
 			<bind_style name="style_light" subject="dark_theme" ref_value="0" />
 			<bind_style name="style_dark" subject="dark_theme" ref_value="1" />
-			<lv_tabview-tab text="" />
-			<lv_tabview-tab flex_flow="column" text="Dashboard">
+			<lv_tabview-tab text="" scroll_chain_hor="false" />
+			<lv_tabview-tab flex_flow="column" text="Dashboard" scroll_chain_hor="false">
 				<row
 					width="100%"
 					height="400"
 					style_flex_cross_place="center"
-					style_pad_column="#unit_xl"
+					style_pad_column="36"
 					style_pad_all="#unit_md"
 				>
 					<alarm flex_grow="1" height="100%" />
@@ -35,29 +35,23 @@
 					width="100%"
 					height="400"
 					style_flex_cross_place="center"
-					style_pad_column="#unit_xl"
+					style_pad_column="36"
 					style_pad_all="#unit_md"
 				>
 					<weather flex_grow="1" height="100%" />
 					<light_temperature flex_grow="1" height="100%" />
 
-					<column
-						flex_grow="1"
-						height="100%"
-						style_flex_cross_place="center"
-						style_pad_row="#unit_md"
-						style_pad_all="#unit_md"
-					>
+					<column flex_grow="1" height="100%" style_flex_cross_place="center" style_pad_row="#unit_md">
 						<music_player flex_grow="1" width="100%" />
-						<speaker_volume height="40%" />
+						<speaker_volume height="40%" width="100%" />
 					</column>
 				</row>
 			</lv_tabview-tab>
-			<lv_tabview-tab text="Video" />
-			<lv_tabview-tab text="3D Example" />
-			<lv_tabview-tab text="" />
+			<lv_tabview-tab text="Video" scroll_chain_hor="false" />
+			<lv_tabview-tab text="3D Example" scroll_chain_hor="false" />
+			<lv_tabview-tab text="" scroll_chain_hor="false" />
 
-			<lv_tabview-tab_bar height="100" scrollable="false">
+			<lv_tabview-tab_bar height="120" scrollable="false">
 				<style name="header" />
 				<bind_style name="style_light" subject="dark_theme" ref_value="0" />
 				<bind_style name="style_dark" subject="dark_theme" ref_value="1" />

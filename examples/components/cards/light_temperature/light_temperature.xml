@@ -7,7 +7,7 @@
 			name="style_arc_main"
 			width="228"
 			height="228"
-			margin_bottom="-98"
+			margin_bottom="-40"
 			arc_width="42"
 			arc_image_src="light_temp_arc_bg"
 		/>
@@ -26,9 +26,9 @@
 			bind_value="light_temperature_temp"
 			min_value="2000"
 			max_value="10000"
-			bg_start_angle="160"
-			bg_end_angle="380"
-			start_angle="180"
+			bg_start_angle="170"
+			bg_end_angle="370"
+			start_angle="185"
 		>
 			<style name="style_arc_main" />
 			<style name="style_arc_indicator" selector="indicator" />
