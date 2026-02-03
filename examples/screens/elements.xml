@@ -7,8 +7,8 @@
 		<style name="themeswitch" align="right_mid" pad_all="20" />
 		<style name="lol" bg_color="#accent2_50_light" />
 		<style name="header" height="50" text_font="geist_semibold_28" />
-		<style name="active_tab_light" text_color="0xff0000" bg_color="#accent2_50_light" border_color="0xff0000" />
-		<style name="active_tab_dark" text_color="0xff0000" bg_color="#accent2_50_dark" border_color="0xff0000" />
+		<style name="active_tab_light" text_color="0xff0000" bg_color="#accent1_50_light" border_color="0xff0000" />
+		<style name="active_tab_dark" text_color="0xff0000" bg_color="#accent1_50_dark" border_color="0xff0000" />
 	</styles>
 	<view flex_flow="column">
 		<bind_style subject="dark_theme" name="style_light" ref_value="0" />
