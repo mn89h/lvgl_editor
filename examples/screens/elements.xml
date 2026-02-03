@@ -6,6 +6,7 @@
 		<style name="glyn_logo" bg_image_src="light_temp_arc_bg" bg_opa="0" />
 	</styles>
 	<view flex_flow="column">
+		<bind_style name="style_dark" subject="lello" ref_value="1" />
 		<bind_style subject="dark_theme" name="style_light" ref_value="0" />
 		<bind_style subject="dark_theme" name="style_dark" ref_value="1" />
 
@@ -17,55 +18,64 @@
 			</button>
 			<theme_switcher flex_grow="1" />
 		</row>
+		<lv_tabview active="1">
+			<lv_tabview-tab text="klk" />
+			<lv_tabview-tab flex_flow="column" text="Dashboard">
+				<row
+					width="100%"
+					height="400"
+					style_flex_cross_place="center"
+					style_pad_column="#unit_xl"
+					style_pad_all="#unit_md"
+				>
+					<alarm flex_grow="1" height="100%" />
+					<thermostat flex_grow="1" height="100%" />
+					<move_goal flex_grow="1" height="100%" />
+				</row>
 
-		<row
-			width="100%"
-			height="400"
-			style_flex_cross_place="center"
-			style_pad_column="#unit_xl"
-			style_pad_all="#unit_md"
-		>
-			<alarm flex_grow="1" height="100%" />
-			<thermostat flex_grow="1" height="100%" />
-			<move_goal flex_grow="1" height="100%" />
-		</row>
+				<row
+					width="100%"
+					height="400"
+					style_flex_cross_place="center"
+					style_pad_column="#unit_xl"
+					style_pad_all="#unit_md"
+				>
+					<weather flex_grow="1" height="100%" />
+					<light_temperature flex_grow="1" height="100%" />
 
-		<row
-			width="100%"
-			height="400"
-			style_flex_cross_place="center"
-			style_pad_column="#unit_xl"
-			style_pad_all="#unit_md"
-		>
-			<weather flex_grow="1" height="100%" />
-			<light_temperature flex_grow="1" height="100%" />
-
-			<column
-				flex_grow="1"
-				height="100%"
-				style_flex_cross_place="center"
-				style_pad_row="#unit_md"
-				style_pad_all="#unit_md"
-			>
-				<music_player flex_grow="1" width="100%" />
-				<speaker_volume height="40%" />
-			</column>
-		</row>
-
-		<div
-			flex_grow="1"
-			scroll_snap_y="center"
-			scroll_one="true"
-			style_flex_track_place="center"
-			style_pad_row="#unit_xl"
-		>
-			<alarm />
-			<thermostat />
-			<move_goal />
-			<weather />
-			<light_temperature />
-			<music_player />
-			<speaker_volume />
-		</div>
+					<column
+						flex_grow="1"
+						height="100%"
+						style_flex_cross_place="center"
+						style_pad_row="#unit_md"
+						style_pad_all="#unit_md"
+					>
+						<music_player flex_grow="1" width="100%" />
+						<speaker_volume height="40%" />
+					</column>
+				</row>
+			</lv_tabview-tab>
+			<lv_tabview-tab_bar height="150" width="500" flex_flow="column">
+				<!-- <style name="style_dark" /> -->
+				<row
+					width="100%"
+					height="400"
+					style_flex_cross_place="center"
+					style_pad_column="#unit_xl"
+					style_pad_all="#unit_md"
+				>
+					<lv_image src="light_temp_arc_bg" />
+					<lv_checkbox bind_checked="lello" text="lo" />
+					<icon_button icon="icon_cloudy" />
+					<icon_button icon="icon_cloudy" />
+				</row>
+			</lv_tabview-tab_bar>
+			<lv_tabview-tab_button index="0">
+				<lv_label text="lol" />
+			</lv_tabview-tab_button>
+			<lv_tabview-tab_button index="1">
+				<lv_label text="lel" />
+			</lv_tabview-tab_button>
+		</lv_tabview>
 	</view>
 </screen>
