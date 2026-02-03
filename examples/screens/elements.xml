@@ -2,18 +2,54 @@
 	<styles>
 		<style name="style_light" bg_color="#accent2_50_light" />
 		<style name="style_dark" bg_color="#accent2_50_dark" />
+
+		<style name="glyn_logo" bg_image_src="light_temp_arc_bg" bg_opa="0" />
 	</styles>
 	<view flex_flow="column">
 		<bind_style subject="dark_theme" name="style_light" ref_value="0" />
 		<bind_style subject="dark_theme" name="style_dark" ref_value="1" />
 
-		<row width="100%" style_flex_cross_place="center" style_pad_all="#unit_md">
+		<row width="100%" style_flex_cross_place="center" style_pad_all="#unit_md" style_pad_column="#unit_md">
 			<bind_style subject="dark_theme" name="style_light" ref_value="0" />
 			<bind_style subject="dark_theme" name="style_dark" ref_value="1" />
-			<theme_switcher flex_grow="1" />
-			<button label="Play Animation" width="content">
-				<play_timeline_event target="alarm_0" timeline="open" />
+			<button label="Play Animation" width="200" height="80px">
+				<style name="glyn_logo" />
 			</button>
+			<theme_switcher flex_grow="1" />
+		</row>
+
+		<row
+			width="100%"
+			height="400"
+			style_flex_cross_place="center"
+			style_pad_column="#unit_xl"
+			style_pad_all="#unit_md"
+		>
+			<alarm flex_grow="1" height="100%" />
+			<thermostat flex_grow="1" height="100%" />
+			<move_goal flex_grow="1" height="100%" />
+		</row>
+
+		<row
+			width="100%"
+			height="400"
+			style_flex_cross_place="center"
+			style_pad_column="#unit_xl"
+			style_pad_all="#unit_md"
+		>
+			<weather flex_grow="1" height="100%" />
+			<light_temperature flex_grow="1" height="100%" />
+
+			<column
+				flex_grow="1"
+				height="100%"
+				style_flex_cross_place="center"
+				style_pad_row="#unit_md"
+				style_pad_all="#unit_md"
+			>
+				<music_player flex_grow="1" width="100%" />
+				<speaker_volume height="40%" />
+			</column>
 		</row>
 
 		<div
