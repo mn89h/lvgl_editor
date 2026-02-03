@@ -36,7 +36,7 @@ lv_obj_t * speaker_volume_create(lv_obj_t * parent)
 
     static lv_style_t style_panel_light;
     static lv_style_t style_panel_dark;
-    static lv_style_t style_disabled;
+    static lv_style_t style_disable;
     static lv_style_t style_knob;
     static lv_style_t style_knob_dark;
 
@@ -49,8 +49,8 @@ lv_obj_t * speaker_volume_create(lv_obj_t * parent)
         lv_style_init(&style_panel_dark);
         lv_style_set_bg_color(&style_panel_dark, ACCENT2_DARK);
 
-        lv_style_init(&style_disabled);
-        lv_style_set_opa_layered(&style_disabled, 60);
+        lv_style_init(&style_disable);
+        lv_style_set_opa_layered(&style_disable, 60);
 
         lv_style_init(&style_knob);
         lv_style_set_pad_all(&style_knob, 2);
@@ -90,7 +90,7 @@ lv_obj_t * speaker_volume_create(lv_obj_t * parent)
     lv_slider_bind_value(slider_0, &speaker_vol);
     lv_obj_add_style(slider_0, &style_knob, LV_PART_KNOB);
     lv_obj_bind_style(slider_0, &style_knob_dark, LV_PART_KNOB, &dark_theme, 1);
-    lv_obj_add_style(slider_0, &style_disabled, LV_STATE_DISABLED);
+    lv_obj_add_style(slider_0, &style_disable, LV_STATE_DISABLED);
     lv_obj_bind_state_if_eq(slider_0, &speaker, LV_STATE_DISABLED, 0);
 
     LV_TRACE_OBJ_CREATE("finished");

@@ -24,6 +24,6 @@ list(
   ${CMAKE_CURRENT_LIST_DIR}/components/cards/thermostat/thermostat_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/components/cards/weather/location_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/components/cards/weather/weather_gen.c
-  ${CMAKE_CURRENT_LIST_DIR}/screens/elements_gen.c
   ${CMAKE_CURRENT_LIST_DIR}/examples_gen.c
-  ${CMAKE_CURRENT_LIST_DIR}/examples.c)
+  ${CMAKE_CURRENT_LIST_DIR}/examples.c
+  ${CMAKE_CURRENT_LIST_DIR}/screens/elements_gen.c)
