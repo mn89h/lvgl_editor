@@ -1,25 +1,27 @@
 <screen>
 	<styles>
-		<style name="style_light" bg_color="#accent2_50_light" />
-		<style name="style_dark" bg_color="#accent2_50_dark" />
+		<style name="style_light" bg_color="#accent2_50_light" text_color="#accent1_50_dark" />
+		<style name="style_dark" bg_color="0x211f1c" text_color="#accent1_50_light" />
 
 		<style name="glyn_logo" bg_image_src="light_temp_arc_bg" bg_opa="0" />
+		<style name="themeswitch" align="right_mid" pad_all="20" />
+		<style name="lol" bg_color="#accent2_50_light" />
+		<style name="header" height="50" text_font="geist_semibold_28" />
+		<style
+			name="active_tab"
+			text_color="#accent1_50_dark"
+			bg_color="#accent2_50_light"
+			border_color="#accent1_50_dark"
+		/>
 	</styles>
 	<view flex_flow="column">
-		<bind_style name="style_dark" subject="lello" ref_value="1" />
 		<bind_style subject="dark_theme" name="style_light" ref_value="0" />
 		<bind_style subject="dark_theme" name="style_dark" ref_value="1" />
 
-		<row width="100%" style_flex_cross_place="center" style_pad_all="#unit_md" style_pad_column="#unit_md">
-			<bind_style subject="dark_theme" name="style_light" ref_value="0" />
-			<bind_style subject="dark_theme" name="style_dark" ref_value="1" />
-			<button label="Play Animation" width="200" height="80px">
-				<style name="glyn_logo" />
-			</button>
-			<theme_switcher flex_grow="1" />
-		</row>
-		<lv_tabview active="1">
-			<lv_tabview-tab text="klk" />
+		<lv_tabview active="3">
+			<bind_style name="style_light" subject="dark_theme" ref_value="0" />
+			<bind_style name="style_dark" subject="dark_theme" ref_value="1" />
+			<lv_tabview-tab text="" />
 			<lv_tabview-tab flex_flow="column" text="Dashboard">
 				<row
 					width="100%"
@@ -55,26 +57,44 @@
 					</column>
 				</row>
 			</lv_tabview-tab>
-			<lv_tabview-tab_bar height="150" width="500" flex_flow="column">
-				<!-- <style name="style_dark" /> -->
-				<row
-					width="100%"
-					height="400"
-					style_flex_cross_place="center"
-					style_pad_column="#unit_xl"
-					style_pad_all="#unit_md"
-				>
-					<lv_image src="light_temp_arc_bg" />
-					<lv_checkbox bind_checked="lello" text="lo" />
-					<icon_button icon="icon_cloudy" />
-					<icon_button icon="icon_cloudy" />
-				</row>
+			<lv_tabview-tab text="Video" />
+			<lv_tabview-tab text="3D Example" />
+			<lv_tabview-tab text="" />
+
+			<lv_tabview-tab_bar height="100">
+				<style name="header" />
+				<bind_style name="style_light" subject="dark_theme" ref_value="0" />
+				<bind_style name="style_dark" subject="dark_theme" ref_value="1" />
 			</lv_tabview-tab_bar>
-			<lv_tabview-tab_button index="0">
-				<lv_label text="lol" />
+
+			<lv_tabview-tab_button index="0" clickable="false">
+				<remove_style_all />
+				<lv_image src="light_temp_arc_bg" style_margin_right="20" />
 			</lv_tabview-tab_button>
-			<lv_tabview-tab_button index="1">
-				<lv_label text="lel" />
+
+			<!-- TODO: create custom lv_tabview w/proper icons. Is it possible (exposed getters for buttons needed)? -->
+			<lv_tabview-tab_button index="1" style_opa="100%">
+				<style name="active_tab" selector="checked" />
+			</lv_tabview-tab_button>
+			<lv_tabview-tab_button index="2" style_opa="100%">
+				<style name="active_tab" selector="checked" />
+			</lv_tabview-tab_button>
+			<lv_tabview-tab_button index="3" style_opa="100%">
+				<style name="active_tab" selector="checked" />
+			</lv_tabview-tab_button>
+
+			<lv_tabview-tab_button clickable="false" height="100%" style_min_width="400" index="4">
+				<!-- <remove_style_all  /> -->
+				<!-- <style name="themeswitch" /> -->
+				<row>
+					<style name="themeswitch" />
+					<theme_switcher
+						style_align="center"
+						style_grid_row_align="center"
+						style_grid_column_align="center"
+						flex_grow="1"
+					/>
+				</row>
 			</lv_tabview-tab_button>
 		</lv_tabview>
 	</view>
